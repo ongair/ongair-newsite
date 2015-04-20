@@ -1,7 +1,9 @@
-body{
-  background-color: $white;
-}
 
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 h1,h2,h3,p,a{
   font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
 }
@@ -29,77 +31,20 @@ margin-top: .5em;
 margin-bottom: .75em;
 margin: 0;
 }
+
+h4{  
+font-weight: 200 !important;
+font-size: 1.5rem !important;
+margin-top: .5em;
+margin-bottom: .75em;
+margin: 0;
+}
 p{
   font-size: 1rem !important;
   line-height: 1.5;
   display: inline-block;
 }
 
-.ui.menu.fixed.top{
-  background-image: url(../images/header_image.png);
-  background-repeat: repeat-x;
-  background-position: top left;
-
-  ul{
-    padding-top: 23px;
-}
-}
-.ui.visible.sidebar{
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  transform:none;
-  background-image: url(../images/ongair_cover.jpg), linear-gradient(150deg, rgba(19, 106, 138, 0.65) 30%, rgba(38, 120, 113, 0.44) 70%);
- // vertical-align: middle;
- // overflow-y: hidden !important;
-  .item{
-    text-align: center;
-    padding: 10px 0;
-  }
-  .ui.divider{
-    width: 50%;
-    margin: 0 auto;
-    align: center;
-  }
-}
-
-
-
-.ui.page.grid.main{
-  padding: 0px;
-
-  .two.column.grid{
-    padding: 40px 0 15px;
-  }
-
-
-  .column.row.center.aligned {
-    padding: 100px 0;
-  }
-
-
-  .ui.page.right.aligned.grid{
-  background-image: url("../images/banner.png");
-  background-size: cover;
-  min-height: 550px;
-  margin-bottom: 30px;
-
-    .purple.button{
-    margin-top: 20px;
-    }
-  }
-  .ui.horizontal.divider{
-    font-weight: 500;
-  }
-  .dashboard.wide.column{
-    background-image: url("../images/dashboard.jpg");
-    background-color: white;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 280px;
-  }
-
-
+.black.centered.column.row {
+  padding-top: 30px;
 }
