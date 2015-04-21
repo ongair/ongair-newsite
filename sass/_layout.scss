@@ -42,15 +42,15 @@ margin: 0;
 color: $pink;
 }
 h5{  
-font-weight: 500 !important;
-font-size: 17px !important;
+font-weight: 600 !important;
+font-size: 18px !important;
 margin-top: .5em;
 margin-bottom: .75em;
 margin: 0;
 }
 p{
   font-size: 1rem !important;
-  font-weight: 100 !important;
+  font-weight: 400 !important;
   line-height: 1.5;
 }
 .button{
@@ -114,4 +114,17 @@ p{
   {
     padding: 5px 0;
   }
+}
+.price.grey.center.aligned.column{
+  background-color: #e6e6e6;
+  margin: 0 20px 20px;
+  .statistic{
+    padding: 5px 0 15px
+  }
+  .pink.button{
+    background-color: $pink;
+  }
+}
+.price.center.aligned.column{
+  margin: 0 20px;
 }
