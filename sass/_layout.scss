@@ -64,11 +64,26 @@ p{
 }
 .center.aligned.grey.column.row{
   background-color: #c8c8c8;
+   .button{
+    background-color: $pink;
+  }
   h4{
       font-weight: 600;
   }
 }
-.ui.labeled.large.icon.borderless.fluid.nine.item.menu{
-  padding: 10px 30px;
-  margin: 0;
+.ui.menu{
+  margin: 0 !important;
+
+  .item{
+    padding: 20px 0px;
+  }
+}
+.center.aligned.column.row{
+  h4{
+      font-weight: 600;
+  }
+}
+.dashboard.column.row {
+  max-height: 400px;
+  overflow: hidden;
 }
