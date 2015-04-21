@@ -34,7 +34,7 @@ margin: 0;
 }
 
 h4{  
-font-weight: 200;
+font-weight: 500 !important;
 font-size: 1.5rem !important;
 margin-top: .5em;
 margin-bottom: .75em;
@@ -77,7 +77,7 @@ p{
 .ui.icon.menu{
   margin: 0 !important;
   background-color: inherit;
-  //box-shadow: 0 !important;
+  box-shadow: none !important;
 
 
   .item{
@@ -92,4 +92,13 @@ p{
 .dashboard.column.row {
   max-height: 400px;
   overflow: hidden;
+}
+.icons.center.aligned.grey.column.row{
+  font-size: none !important;
+  
+  h4{
+    padding:0 !important;
+    color: $pink;
+  }
+
 }
