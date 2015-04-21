@@ -39,10 +39,18 @@ font-size: 1.5rem !important;
 margin-top: .5em;
 margin-bottom: .75em;
 margin: 0;
+color: $pink;
 }
-
+h5{  
+font-weight: 500 !important;
+font-size: 17px !important;
+margin-top: .5em;
+margin-bottom: .75em;
+margin: 0;
+}
 p{
   font-size: 1rem !important;
+  font-weight: 100 !important;
   line-height: 1.5;
 }
 .button{
@@ -98,7 +106,12 @@ p{
   
   h4{
     padding:0 !important;
-    color: $pink;
   }
 
+}
+.details.centered.column.row{
+  .item
+  {
+    padding: 5px 0;
+  }
 }
