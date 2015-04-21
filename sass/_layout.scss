@@ -17,34 +17,58 @@ h1{
 }
 
 h2{
-  font-weight: 400  !important;
+  font-weight: 500  !important;
   font-size: 3.0rem !important;
   margin-top: .5em;
   margin-bottom: .75em;
   margin: 0;
+  color: $pink;
 }
 
 h3{  
-font-weight: 200 !important;
-font-size: 1.5rem !important;
+font-weight: 100 !important;
+font-size: 3.0rem !important;
 margin-top: .5em;
 margin-bottom: .75em;
 margin: 0;
 }
 
 h4{  
-font-weight: 200 !important;
+font-weight: 200;
 font-size: 1.5rem !important;
 margin-top: .5em;
 margin-bottom: .75em;
 margin: 0;
 }
+
 p{
   font-size: 1rem !important;
   line-height: 1.5;
-  display: inline-block;
 }
 
-.black.centered.column.row {
+.black.centered.row {
   padding-top: 30px;
+  p{
+  display: inline-block;
+  }
+}
+.ui.page.left.aligned.grid{
+  //background-image: url("../images/banner.png");
+  background-size: cover;
+ // min-height: 550px;
+  margin-bottom: 10px;
+  .button{
+    margin:30px 0 15px;
+    background-color: $pink;
+  }
+}
+.center.aligned.grey.column.row{
+  background-color: #c8c8c8;
+  h4{
+      font-weight: 600;
+  }
+}
+.ui.labeled.large.icon.borderless.fluid.nine.item.menu{
+  padding: 10px 30px;
+  margin: 0;
 }
