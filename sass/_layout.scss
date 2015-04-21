@@ -45,6 +45,9 @@ p{
   font-size: 1rem !important;
   line-height: 1.5;
 }
+.button{
+  color: #ffffff !important;
+}
 
 .black.centered.row {
   padding-top: 30px;
@@ -71,8 +74,11 @@ p{
       font-weight: 600;
   }
 }
-.ui.menu{
+.ui.icon.menu{
   margin: 0 !important;
+  background-color: inherit;
+  //box-shadow: 0 !important;
+
 
   .item{
     padding: 20px 0px;
