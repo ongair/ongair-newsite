@@ -49,12 +49,14 @@ margin-bottom: .75em;
 margin: 0;
 }
 p{
-  font-size: 1rem !important;
+  font-size: 14px !important;
   font-weight: 400;
   line-height: 1.5;
+  margin-bottom: 2px;
 }
 .button{
   color: #ffffff !important;
+  margin: 5px 0 !important;
 }
 
 .black.center.aligned.row {
@@ -78,6 +80,7 @@ p{
     min-width: 82px;
     padding: 0;
     vertical-align: inherit;
+    margin: 15px 0 0 !important;
   }
   .button{
     margin:30px 0 15px;
