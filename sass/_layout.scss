@@ -50,17 +50,21 @@ margin: 0;
 }
 p{
   font-size: 1rem !important;
-  font-weight: 400 !important;
+  font-weight: 400;
   line-height: 1.5;
 }
 .button{
   color: #ffffff !important;
 }
 
-.black.centered.row {
+.black.center.aligned.row {
   padding-top: 30px;
-  p{
-  display: inline-block;
+  .label{
+    margin-right: 10px;
+    vertical-align: inherit;
+  }
+  h4{
+    color: #fba04d;
   }
 }
 .ui.page.left.aligned.grid{
@@ -68,6 +72,13 @@ p{
   background-size: cover;
  // min-height: 550px;
   margin-bottom: 10px;
+  .column{
+    color: #1f3a81;
+    background-color: inherit;
+    min-width: 82px;
+    padding: 0;
+    vertical-align: inherit;
+  }
   .button{
     margin:30px 0 15px;
     background-color: $pink;
