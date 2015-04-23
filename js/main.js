@@ -5,6 +5,13 @@ $(document)
   ;
 
 
+	$('.ui.sticky')
+	  .sticky({
+	    context: '.wrapper',
+
+	  })
+
+	;
 
   $('.ui.accordion')
   .accordion({

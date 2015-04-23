@@ -10,6 +10,7 @@
   <title>Homepage</title>
 
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="../dist/semantic.css">
 
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
@@ -20,7 +21,7 @@
   <script src="js/main.js"></script>
 </head>
 <body>
-<div class="ui grid">
+<div class="ui grid wrapper">
   <div class="black center aligned row">
       <h4 class="column">
       <div class="ui pointing right label">
@@ -29,13 +30,12 @@
         Celebrating 200 Happy Customers
       </h4>
   </div>
-
-  <div class="column row">
-    <div class="ui stackable page left aligned grid">
-      <div class="row">
+  <div class="banner column row">
+  <div class="ui row page grid sticky">
         <img class="ui left floated image" src="images/logo.png">
         <a class="ui right floated left aligned column horizontal label">Menu <i class="list layout large icon"></i></a>
       </div>
+    <div class="ui stackable page left aligned grid">
       <div class="eight wide column">
       <div class="column row">
         <h2>Your Customers are chating on Mobile</h2>
@@ -43,9 +43,9 @@
       </div>
       <div class="column row">
         <ul class="ui bulleted list">
-          <h4 class="item">Talk to your customers one on one </h4>
-          <h4 class="item">Private conversations and groups </h4>
-          <h4 class="item">Send them images, video and audio </h4>
+          <p class="item">Talk to your customers one on one </p>
+          <p class="item">Private conversations and groups </p>
+          <p class="item">Send them images, video and audio </p>
         </ul>
       </div>
       <div class="column row">
@@ -59,7 +59,7 @@
         <h4 class="column">Features to make you more productive</h4>
   </div>
   <div class="ui labeled large icon borderless fluid nine item menu">
-    <a class="red item" data-tab="multiple_users">
+    <a class="purple item" data-tab="multiple_users">
     <i class="users icon"></i>
     MULTIPLE USERS
   </a>
@@ -67,11 +67,11 @@
     <i class=" marker icon"></i>
     LOCATIONS
   </a>
-  <a class="active purple item" data-tab="analytics">
+  <a class="active red item" data-tab="analytics">
     <i class="fork icon"></i>
     ANALYTICS
   </a>
-  <a class="red item" data-tab="zendesk">
+  <a class="orange item" data-tab="zendesk">
     <i class="fork icon"></i>
     ZENDESK CONNECT
   </a>
@@ -83,11 +83,11 @@
     <i class="fork icon"></i>
     AUTOREPLY
   </a>
-  <a class="red item" data-tab="ongair_api">
+  <a class="orange item" data-tab="ongair_api">
     <i class="linkify icon"></i>
     ONGAIR API
   </a>
-  <a class="purple item" data-tab="broadcasts">
+  <a class="blue item" data-tab="broadcasts">
     <i class="announcement icon"></i>
     BROADCASTS
   </a>
@@ -95,43 +95,43 @@
   <div class="tabs">
     
     <div class="ui center aligned column row tab" data-tab="multiple_users">
-      <h4 class="sixteen wide column">Multiple users</h4>
+      <h4 class="ui sixteen wide purple header">Multiple users</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint nemo maiores eaque non eum magni, enim aliquid, nisi. At sed sequi modi blanditiis, porro! Iste quibusdam illum quos quasi?</p>
     </div>
     
     <div class="ui center aligned column row tab" data-tab="locations">
-      <h4 class="sixteen wide column">Locations</h4>
+      <h4 class="ui sixteen wide teal header">Locations</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint nemo maiores eaque non eum magni, enim aliquid, nisi. At sed sequi modi blanditiis, porro! Iste quibusdam illum quos quasi?</p>
     </div>
 
     <div class="ui dashboard center aligned column row active tab" data-tab="analytics">
-      <h4 class="sixteen wide column">Powerful analysts to get your business going</h4>
+      <h4 class="ui sixteen wide red header">Powerful analysts to get your business going</h4>
       <img class="ui centered huge image" src="../homepage/images/dashboard.jpg">
     </div>
   
     <div class="ui center aligned column row tab" data-tab="zendesk">
-      <h4 class="sixteen wide column">Zendesk Connect</h4>
+      <h4 class="ui sixteen wide orange header">Zendesk Connect</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint nemo maiores eaque non eum magni, enim aliquid, nisi. At sed sequi modi blanditiis, porro! Iste quibusdam illum quos quasi?</p>
       </div>
       
       <div class="ui center aligned column row tab" data-tab="email">
-      <h4 class="sixteen wide column">Email Digest</h4>
+      <h4 class="ui sixteen wide teal header">Email Digest</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint nemo maiores eaque non eum magni, enim aliquid, nisi. At sed sequi modi blanditiis, porro! Iste quibusdam illum quos quasi?</p>
       </div>
 
       <div class="ui center aligned column row tab" data-tab="autoreply">
-      <h4 class="sixteen wide column">Autoreply</h4>
+      <h4 class="ui sixteen wide purple header">Autoreply</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint nemo maiores eaque non eum magni, enim aliquid, nisi. At sed sequi modi blanditiis, porro! Iste quibusdam illum quos quasi?</p>
       </div>
 
       <div class="ui center aligned column row tab" data-tab="ongair_api">
-      <h4 class="sixteen wide column">Ongair API</h4>
+      <h4 class="ui sixteen wide orange header">Ongair API</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint nemo maiores eaque non eum magni, enim aliquid, nisi. At sed sequi modi blanditiis, porro! Iste quibusdam illum quos quasi?</p>
     </div>
 
 
     <div class="ui center aligned column row tab" data-tab="broadcasts">
-      <h4 class="sixteen wide column">Broadcasts</h4>
+      <h4 class="ui sixteen wide blue header">Broadcasts</h4>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint nemo maiores eaque non eum magni, enim aliquid, nisi. At sed sequi modi blanditiis, porro! Iste quibusdam illum quos quasi?</p>
     </div>
 

@@ -13,14 +13,14 @@ h1{
   font-size: 4rem !important;
   line-height: 4rem !important;
   font-weight: 100 !important;
-  margin: 2rem 0px;
+ // margin: 2rem 0px;
 }
 
 h2{
   font-weight: 500  !important;
   font-size: 3.0rem !important;
-  margin-top: .5em;
-  margin-bottom: .75em;
+ // margin-top: .5em;
+  //margin-bottom: .75em;
   margin: 0;
   color: $pink;
 }
@@ -28,31 +28,31 @@ h2{
 h3{  
 font-weight: 100 !important;
 font-size: 3.0rem !important;
-margin-top: .5em;
-margin-bottom: .75em;
+//margin-top: .5em;
+//margin-bottom: .75em;
 margin: 0;
 }
 
 h4{  
 font-weight: 500 !important;
 font-size: 1.5rem !important;
-margin-top: .5em;
-margin-bottom: .75em;
-margin: 0;
+//margin-top: .5em;
+//margin-bottom: .75em;
+//margin: 0;
 color: $pink;
 }
 h5{  
 font-weight: 600 !important;
 font-size: 18px !important;
-margin-top: .5em;
-margin-bottom: .75em;
+//margin-top: .5em;
+//margin-bottom: .75em;
 margin: 0;
 }
 p{
   font-size: 14px !important;
   font-weight: 400;
   line-height: 1.5;
-  margin-bottom: 2px;
+ // margin-bottom: 2px;
 }
 .button{
   color: #ffffff !important;
@@ -69,23 +69,46 @@ p{
     color: #fba04d;
   }
 }
-.ui.page.left.aligned.grid{
-  //background-image: url("../images/banner.png");
-  background-size: cover;
- // min-height: 550px;
-  margin-bottom: 10px;
-  .column{
+
+ a.ui.right.floated.left.aligned.column.horizontal.label{
     color: #1f3a81;
-    background-color: inherit;
+    background-color: initial;
     min-width: 82px;
     padding: 0;
     vertical-align: inherit;
-    margin: 15px 0 0 !important;
+    margin: 15px 10px 0 !important;
   }
+
+  .ui.row.page.grid.sticky.fixed.top {
+  background: rgba(230,230,230,0.7);
+  -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+  }
+
+  .banner.column.row{
+     background-image: url("../images/banner.png");
+  background-size: cover;
+ // min-height: 550px;
+ // margin-bottom: 10px;
+    max-height: 500px;
   .button{
-    margin:30px 0 15px;
+    //margin:30px 0 15px;
     background-color: $pink;
   }
+  ul{
+    margin-top:15px;
+    margin-bottom: 15px;
+
+    p{
+      margin: 0;
+    }
+  }
+  }
+.ui.page.left.aligned.grid{
+ 
 }
 .center.aligned.grey.column.row{
   background-color: #c8c8c8;
@@ -141,6 +164,9 @@ p{
 }
 .price.center.aligned.column{
   margin: 0 20px;
+  p{
+    margin: 5px;
+  }
 }
 .purple.centered.row{
   margin-top: 20px;
