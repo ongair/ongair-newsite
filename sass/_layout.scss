@@ -55,12 +55,16 @@ p{
 }
 .button{
   color: #ffffff !important;
-  margin: 5px 0 !important;
+  margin: 15px 0 !important;
 }
 
 
-.black.center.aligned.row {
+.topbar {
   padding-top: 30px;
+  background-color: #293c43 !important;
+  text-align: center;
+  display: block;
+  padding: 10px 0;
   .label{
     margin-right: 10px;
     vertical-align: inherit;
@@ -69,31 +73,21 @@ p{
     color: #fba04d;
   }
 }
+.navbar{
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 0px;
+}
 
- a.ui.right.floated.left.aligned.column.horizontal.label{
-    color: #1f3a81;
-    background-color: initial;
-    min-width: 82px;
-    padding: 0;
-    vertical-align: inherit;
-    margin: 15px 10px 0 !important;
-  }
 
-  .ui.row.page.grid.sticky.fixed.top {
-  background: rgba(230,230,230,0.7);
-  -webkit-transition: background-color 1000ms linear;
-    -moz-transition: background-color 1000ms linear;
-    -o-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
-  }
-
-  .banner.column.row{
-     background-image: url("../images/banner.png");
+  #banner{
+  background: url("../images/topbanner.jpg");
   background-size: cover;
- // min-height: 550px;
- // margin-bottom: 10px;
-    max-height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform:none;
+  min-height: 460px;
   .button{
     //margin:30px 0 15px;
     background-color: $pink;
@@ -110,8 +104,9 @@ p{
   .tabs{
     min-height: 300px;
   }
-.center.aligned.grey.column.row{
+.center.aligned.grey.grid{
   background-color: #c8c8c8;
+  margin: 0;
    .button{
     background-color: $pink;
   }
@@ -164,6 +159,7 @@ p{
 }
 .price.center.aligned.column{
   margin: 0 20px;
+  min-height: 230px;
   p{
     margin: 5px;
   }

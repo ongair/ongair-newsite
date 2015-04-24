@@ -9,7 +9,7 @@ $(document)
 
 	$('.ui.sticky')
 	  .sticky({
-	    context: '.wrapper',
+	    context: '.body',
 
 	  })
 

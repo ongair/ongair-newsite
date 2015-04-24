@@ -21,20 +21,27 @@
   <script src="js/main.js"></script>
 </head>
 <body>
-<div class="ui grid wrapper">
-  <div class="black center aligned row">
+
+  <section class="topbar">
       <h4 class="column">
       <div class="ui pointing right label">
         Blog
       </div>
         Celebrating 200 Happy Customers
       </h4>
-  </div>
-  <div class="banner column row">
-  <div class="ui row page grid sticky">
-        <img class="ui left floated image" src="images/logo.png">
-        <a class="ui right floated left aligned column horizontal label">Menu <i class="list layout large icon"></i></a>
-      </div>
+  </section>
+
+<header class="ui sticky navbar">
+<div class="brand item">
+      <img src="images/logo.png">
+    </div>
+      
+      
+      
+</header>
+  
+
+  <section class="column row" id="banner">
     <div class="ui stackable page left aligned grid">
       <div class="eight wide column">
       <div class="column row">
@@ -54,10 +61,11 @@
       </div>
       </div>
     </div>
-  </div>
-  <div class="center aligned grey column row">
+  </section>
+  <div class="ui center aligned grey grid">
         <h4 class="column">Features to make you more productive</h4>
   </div>
+  <section id="products">
   <div class="ui labeled large icon borderless fluid nine item menu">
     <a class="purple item" data-tab="multiple_users">
     <i class="users icon"></i>
@@ -138,9 +146,9 @@
   </div>
 
 
+</section>
 
-
- <div class="center aligned grey column row">
+ <div class="ui center aligned grey grid">
     <div class="ui circular large button">START TODAY FOR FREE</div>
   </div>
 
@@ -149,7 +157,7 @@
       <p class="ui purple header">From Australia to Zimbabwe and  everywhere in between</p>
 </div>
 
-
+<section id="clients">
            
 
   <ul class="ui stackable seven item center aligned pointing borderless menu">
@@ -188,6 +196,7 @@
         <h4>12500</h4>
         <p>Shares</p>
       </li>
+      </ul>
     </div>
       </div>
     </div>
@@ -218,6 +227,8 @@
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sequi sunt odio eligendi tenetur optio natus excepturi, porro consequatur ratione nemo alias, maiores pariatur! Ut veritatis impedit dolor amet veniam.</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi excepturi suscipit itaque, fugit deserunt amet assumenda ad sit eligendi delectus doloremque nostrum tempora sunt corrupti voluptates ducimus, quibusdam ab alias.</p>
 </div>
+</section>
+
 
   <div class="icons center aligned grey column row">
       <h4 class="ten wide column">Powerful analysts to get your business going</h4>
@@ -245,7 +256,7 @@
         </li>
       </ul>
 </div>
-
+<section id="details1">
 <div class="details centered white column row">
   <ul class="ui stackable center aligned four column page grid">
     <h4 class="sixteen wide center aligned column">Why You need Ongair</h4>
@@ -331,9 +342,11 @@
     </li>
   </ul>
 </div>
+</section>
 <div class="center aligned white column row">
       <h4 class="column">Great pricing for teams of all sizes</h4>
 </div>
+<section id="prices">
 <div class="white column row">
   <ul class="ui stackable center aligned four column page grid">
 
@@ -430,10 +443,11 @@
 
   </ul>
 </div>
+</section>
 <div class="center aligned white column row">
       <h4 class="column">What People have said about us</h4>
 </div>
-
+<section id="brands">
 <ul class="brands ui stackable seven item center aligned pointing borderless menu">
       <li class="two wide item"><img class="ui small image" src="../homepage/images/bbc.png"></li> 
       <li class="two wide item"><img class="ui small image" src="../homepage/images/wired.png"></li>
@@ -441,9 +455,9 @@
        <li class="two wide item"><img class="ui small image" src="../homepage/images/pcadvisor.png"></li>
       <li class="two wide item"><img class="ui small image" src="../homepage/images/nairobi_garage.png"></li>
 </ul>
-
+</section>
 <div class="purple centered row"></div>
 
-</div>
+
 </body>
 </html>
