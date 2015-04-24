@@ -21,7 +21,6 @@ h2{
   font-size: 3.0rem !important;
  // margin-top: .5em;
   //margin-bottom: .75em;
-  margin: 0;
   color: $pink;
 }
 
@@ -38,7 +37,7 @@ font-weight: 500 !important;
 font-size: 1.5rem !important;
 //margin-top: .5em;
 //margin-bottom: .75em;
-//margin: 0;
+margin: 0 !important;
 color: $pink;
 }
 h5{  
@@ -58,6 +57,7 @@ p{
   color: #ffffff !important;
   margin: 5px 0 !important;
 }
+
 
 .black.center.aligned.row {
   padding-top: 30px;
@@ -107,9 +107,9 @@ p{
     }
   }
   }
-.ui.page.left.aligned.grid{
- 
-}
+  .tabs{
+    min-height: 300px;
+  }
 .center.aligned.grey.column.row{
   background-color: #c8c8c8;
    .button{
@@ -139,22 +139,22 @@ p{
   overflow: hidden;
 }
 .icons.center.aligned.grey.column.row{
-  font-size: none !important;
-  
-  h4{
-    padding:0 !important;
+ 
+  .fa-whatsapp,p{
+    color: $purple;
   }
 
 }
 .details.centered.column.row{
   .item
   {
-    padding: 5px 0;
+    padding: 5px 0 15px;
   }
 }
 .price.grey.center.aligned.column{
   background-color: #e6e6e6;
   margin: 0 20px 20px;
+  min-height: 350px;
   .statistic{
     padding: 5px 0 15px
   }
@@ -168,7 +168,9 @@ p{
     margin: 5px;
   }
 }
+.brands{
+  margin: 0 !important;
+}
 .purple.centered.row{
-  margin-top: 20px;
   min-height: 50px;
 }

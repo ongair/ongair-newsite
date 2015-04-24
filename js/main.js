@@ -1,5 +1,7 @@
 $(document)
   .ready(function() {
+
+  	
   $('.menu .item')
   	.tab()
   ;
@@ -12,16 +14,6 @@ $(document)
 	  })
 
 	;
-
-  $('.ui.accordion')
-  .accordion({
-    selector: {
-      accordion : '.center.aligned.column.row',
-	  title     : '.title',
-	  content   : '.content',
-    }
-  })
-;
 
 
   })
