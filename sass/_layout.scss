@@ -37,7 +37,6 @@ font-weight: 500 !important;
 font-size: 1.5rem !important;
 //margin-top: .5em;
 //margin-bottom: .75em;
-margin: 0 !important;
 color: $pink;
 }
 h5{  
@@ -54,7 +53,7 @@ p{
  // margin-bottom: 2px;
 }
 .button{
-  color: #ffffff !important;
+ // color: #ffffff !important;
   margin: 15px 0 !important;
 }
 
@@ -65,6 +64,9 @@ p{
   text-align: center;
   display: block;
   padding: 10px 0;
+  h4{
+    margin:0;
+  }
   .label{
     margin-right: 10px;
     vertical-align: inherit;
@@ -89,7 +91,6 @@ p{
   transform:none;
   min-height: 460px;
   .button{
-    //margin:30px 0 15px;
     background-color: $pink;
   }
   ul{
@@ -102,7 +103,7 @@ p{
   }
   }
   .tabs{
-    min-height: 300px;
+    min-height: 320px;
   }
 .center.aligned.grey.grid{
   background-color: #c8c8c8;
@@ -112,6 +113,7 @@ p{
   }
   h4{
       font-weight: 600;
+      margin: 0 !important;
   }
 }
 .ui.icon.menu{
@@ -133,18 +135,39 @@ p{
   max-height: 400px;
   overflow: hidden;
 }
-.icons.center.aligned.grey.column.row{
- 
-  .fa-whatsapp,p{
-    color: $purple;
+
+.centered.column.row.message1{
+  padding: 20px 0;
+}
+
+#heineken{
+  background: url("../images/Heineken.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform:none;
+  min-height: 460px;
+  .fa-whatsapp,h2,h4,p{
+    color: #FFFFFF;
   }
 
+
 }
+.icons.grey.column.row{
+ margin: 25px;
+ .ui.labeled.icon.menu > .item > .icon{
+  font-size: 40px !important;
+ }
+}
+
 .details.centered.column.row{
   .item
   {
     padding: 5px 0 15px;
   }
+}
+#prices{
+  margin-top: 10px;
 }
 .price.grey.center.aligned.column{
   background-color: #e6e6e6;
@@ -167,6 +190,7 @@ p{
 .brands{
   margin: 0 !important;
 }
-.purple.centered.row{
+.bottom{
   min-height: 50px;
+  background-color: #784193;
 }
