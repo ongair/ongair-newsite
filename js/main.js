@@ -1,28 +1,25 @@
 $(document)
   .ready(function() {
-
-  	
+ 	
   $('.menu .item')
   	.tab()
   ;
 
-
 	$('.ui.sticky')
 	  .sticky({
-	    context: '.topbar',
+	    context: 'body'
 
 	  })
 	;
 
   $('.ui.accordion')
-  .accordion(
-    
-  { 
+  .accordion( 
+  {
     selector    : {
-    accordion : '.accordion',
-    title     : '.title',
-    content   : '.tab'
-    }
+      accordion : '.accordion',
+      title     : '.title.accordion',
+      content   : '.ui.tab.item',
+  }
 
   })
 ;

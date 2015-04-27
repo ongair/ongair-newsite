@@ -3,6 +3,7 @@ body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  height: initial;
 }
 h1,h2,h3,p,a{
   font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
@@ -35,8 +36,7 @@ margin: 0;
 h4{  
 font-weight: 500 !important;
 font-size: 1.5rem !important;
-//margin-top: .5em;
-//margin-bottom: .75em;
+padding: 20px 0 !important;
 color: $pink;
 }
 h5{  
@@ -73,25 +73,45 @@ p{
   }
   h4{
     color: #fba04d;
+    padding: 0 !important;
   }
 }
-.navbar{
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em 0px;
+.ui.sticky.navbar{
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.8);
+ .content{
+    max-width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 0px;
+    
+    .ui.list{
+      float: right;
+    }
+    }
+}
+
+.ui.sticky.navbar.fixed.top{
+  background-color: rgba(254,254,254,0.8);
+  -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
 }
 
 
   #banner{
   background: url("../images/topbanner.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   transform:none;
   min-height: 460px;
   .button{
     background-color: $pink;
+  }
+  .button:hover{
+    background-color: $hoverpink;
   }
   ul{
     margin-top:15px;
@@ -110,6 +130,9 @@ p{
   margin: 0;
    .button{
     background-color: $pink;
+  }
+  .button:hover{
+    background-color: $hoverpink;
   }
   h4{
       font-weight: 600;
@@ -150,6 +173,9 @@ p{
   .fa-whatsapp,h2,h4,p{
     color: #FFFFFF;
   }
+  h4{
+    padding: 0 !important;
+  }
 
 
 }
@@ -157,6 +183,9 @@ p{
  margin: 25px;
  .ui.labeled.icon.menu > .item > .icon{
   font-size: 40px !important;
+ }
+ li h4{
+  padding:0 !important;
  }
 }
 
@@ -176,6 +205,9 @@ p{
   }
   .pink.button{
     background-color: $pink;
+  }
+  .button:hover{
+    background-color: $hoverpink;
   }
 }
 .price.center.aligned.column{
