@@ -12,8 +12,20 @@ $(document)
 	    context: '.topbar',
 
 	  })
-
 	;
+
+  $('.ui.accordion')
+  .accordion(
+    
+  { 
+    selector    : {
+    accordion : '.accordion',
+    title     : '.title',
+    content   : '.tab'
+    }
+
+  })
+;
 
 
   })

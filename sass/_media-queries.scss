@@ -1,5 +1,7 @@
 @media only screen and (max-width: 1500px){
- 
+ .title.accordion{
+ 	display: none;
+ }
 
 }//max width 1500
 
@@ -15,20 +17,42 @@
 }//Max width 1100
 
 
-@media only screen and (max-width: 960px){
+@media only screen and (max-width: 992px){
 	 
-
+i.huge.icon {
+  font-size: 40px !important;
+}
 
 }//max width 960
 
 @media only screen and (max-width: 768px){
+	
 
 }//max width 768
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 400px){
+body{
+	  text-align: center;
+}
+
+	ul.ui.stackable.seven.item.center.aligned.pointing.borderless.menu {
+  		display: none;
+  	}
+
+  	.title.accordion{
+  		display: inherit;
+  		text-align: center;
+ 		font-size: 17px !important;
+  	}
+
+
+
+	.ui.labeled.large.icon.borderless.fluid.nine.item.menu{
+		display: none;
+	}
  	 
-}//max 500px
+}//max 400px
 
 @media only screen and (max-width: 330px){
 	
