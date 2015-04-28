@@ -32,6 +32,9 @@ i.huge.icon {
       float: right;
     }
 	}
+	#banner .column.row{
+  		text-align: center;
+	}
 
 	#details1
 	 ul {
@@ -56,15 +59,13 @@ i.huge.icon {
 body{
 	  text-align: center;
 }
-
-	ul.ui.stackable.seven.item.center.aligned.pointing.borderless.menu {
-  		display: none;
-  	}
-
-
   	.ui.labeled.large.icon.borderless.fluid.nine.item.menu{
 		display: none;
 	}
+
+	.ui.item.center.aligned.pointing.borderless.menu {
+  		display: none;
+  	}
 
   	.title.accordion{
   		display: inherit;

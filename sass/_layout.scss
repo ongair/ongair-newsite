@@ -78,26 +78,31 @@ p{
 }
 .ui.sticky.navbar{
   background-color: #FFFFFF;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.8);
  .content{
-    max-width: 81%;
+    max-width: 83%;
     margin-left: auto;
     margin-right: auto;
     padding: 1em 0px;
     
-    .ui.list{
+    .ui.list,.mobile_menu{
       float: right;
+      margin: auto 0px !important;
+       .button{
+        //background-color: inherit;
+      }
     }
-    }
+  }
 }
 
 .ui.sticky.navbar.fixed.top{
   background-color: rgba(254,254,254,0.8);
-  -webkit-transition: background-color 1000ms linear;
-    -moz-transition: background-color 1000ms linear;
-    -o-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
+  padding: 0 10px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.8);
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 
@@ -131,7 +136,7 @@ p{
    .button{
     background-color: $pink;
   }
-  .button:hover{
+  .pink.button:hover{
     background-color: $hoverpink;
   }
   h4{
@@ -196,21 +201,32 @@ p{
 #prices{
   margin-top: 10px;
 }
-.price.grey.center.aligned.column{
-  background-color: #e6e6e6;
-  margin: 0 20px 20px;
-  min-height: 350px;
-  .statistic{
-    padding: 5px 0 15px
-  }
-  .pink.button{
-    background-color: $pink;
-  }
-  .button:hover{
-    background-color: $hoverpink;
+#prices{
+  ul li{
+    vertical-align: bottom;
+    .grey.center.aligned.column{
+      background-color: #e6e6e6;
+      margin: 0 20px 20px;
+      min-height: 320px;
+
+      .statistic{
+        padding: 5px 0 15px
+      }
+      .pink.button{
+        background-color: $pink;
+      }
+      .pink.button:hover{
+        background-color: $hoverpink;
+      }
+      .ui.purple.sixteen.wide.column {
+      padding: 2% 0;
+      margin: 4% -7%;
+      font-size: 16px;
+      }
+    }
   }
 }
-.price.center.aligned.column{
+.center.aligned.column{
   margin: 0 20px;
   min-height: 230px;
   p{
@@ -219,6 +235,9 @@ p{
 }
 .brands{
   margin: 0 !important;
+  .column{
+    vertical-align: middle !important;
+  }
 }
 .bottom{
   min-height: 50px;
