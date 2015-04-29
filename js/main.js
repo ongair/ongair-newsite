@@ -15,10 +15,10 @@ $(document)
   $('.ui.accordion')
   .accordion( 
   {
+    exclusive   : true,
     selector    : {
       accordion : '.accordion',
-      title     : '.title.accordion',
-      content   : '.ui.tab.item',
+
   }
 
   })
