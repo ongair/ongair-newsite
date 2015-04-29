@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1500px){
- .title.accordion{
+ .title{
  	display: none;
  }
 
@@ -20,7 +20,7 @@
 @media only screen and (max-width: 992px){
 	 
 i.huge.icon {
-  font-size: 40px !important;
+  font-size: 2.5rem !important;
 }
 
 }//max width 960
@@ -28,61 +28,69 @@ i.huge.icon {
 @media only screen and (max-width: 768px){
 
 	.navbar{
-		 .ui.list{
-      float: right;
-    }
+		.ui.list{
+      		float: right;
+    	}
 	}
 	
 
-	#details1
-	 ul {
-		li{
-			width: 70% !important;
-			text-align: center !important;
-			margin: 30px auto !important;
-			box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.15), 0px 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
-			border-radius: 0.2857rem;
-			padding: 1em 1em !important;
+	#details1{
+		ul{
+			li{
+				width: 70% !important;
+				text-align: center !important;
+				margin: 1.875rem auto !important;
+				box-shadow: 0 0 0 0.063rem rgba(39, 41, 43, 0.15), 0 0.063rem 0.125rem 0 rgba(0, 0, 0, 0.05) !important;
+				border-radius: 0.2857rem;
+				padding: 1em 1em !important;
 
-			.column{
-				text-align: center;
+				.column{
+					text-align: center;
+				}
 			}
 		}
 	}
-
+	.brands li{
+		img{
+			margin-top: 1rem !important;
+			margin-bottom: 1rem !important;
+		}
+	}
 
 	footer{
-  min-height: 80px;
-  padding: 18px 0;
-  background-color: #333333;
-  .ui.list{
-     padding: 20px 30px !important;
-     display: table !important;
+		min-height: 5rem;
+		padding: 1.125rem 0;
+		background-color: #333333;
+	 	.ui.list{
+		    padding: 1.25rem 1.875rem !important;
+		    display: table !important;
 
-    .item{
-      display: list-item !important;
-     margin-left: 0 !important; 
-    }
-   
-  } 
-  .right.ui.list{
-  	 padding:0 30px !important;
-    float: left;
-
-  }
-}
-
+		    .item{
+			    display: list-item !important;
+			    margin-left: 0 !important; 
+		    }
+	    }
+	 
+		.right.ui.list{
+			padding:0 1.875rem !important;
+			float: left;
+		}
+	}
 }//max width 768
 
 
 @media only screen and (max-width: 400px){
-body{
-	  text-align: center;
-}
 
-#banner .column.row{
+	#banner .column.row{
   		text-align: center;
 	}
+
+	#heineken{
+		.eight.wide.column{
+			text-align: center;
+		}
+	}
+
   	.ui.labeled.large.icon.borderless.fluid.nine.item.menu{
 		display: none;
 	}
@@ -90,8 +98,11 @@ body{
 	.ui.item.center.aligned.pointing.borderless.menu {
   		display: none;
   	}
-
  	 
+ 	.centered.column.row.message1{
+		padding: 1.25rem 1rem;
+	}
+
 }//max 400px
 
 @media only screen and (max-width: 330px){
