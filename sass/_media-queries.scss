@@ -49,13 +49,7 @@
 		}
 	}
 
-	#details2 .column.row{
-		.ui.stackable.grid{
-			.column{
-				width: 50%;
-			}
-		}
-	}
+	
 
 
 	.brands li{
@@ -118,6 +112,12 @@
  	 
  	.centered.column.row.message1{
 		padding: 1.25rem 1rem;
+	}
+
+	section.icons.grey.column.row{
+		.item{
+			width: 50%;
+		}
 	}
 
 	
