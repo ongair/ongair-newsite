@@ -32,17 +32,26 @@
     <div class="content">
       <img src="images/logo.png">
       <nav class="ui horizontal relaxed list grid computer only tablet only">
-      <a class="item">Features</a>
-       <a class="item">Clients</a>
+      <a class="item" href="#features">Features</a>
+       <a class="item" href="#clients">Clients</a>
       <a class="item" href="#prices">Pricing</a>
-     <div class="item"> <div class="ui green button">SIGN UP</div></div>
+     <div class="item"> <button class="ui green button">SIGN UP</button></div>
     </nav>
     <nav class="ui mobile_menu grid mobile only">
-    <button class="ui icon button"><i class="list layout icon"></i></button>
+    <button class="ui green button">SIGN UP</button>
       
     </nav>
     </div>
     </header>
+    <section class="ui grid mobile only">
+    <div class="column">
+      <div class="ui three item menu">
+      <a class="item" href="#features">Features</a>
+      <a class="item" href="#clients">Clients</a>
+      <a class="item" href="#prices">Pricing</a>
+      </div>
+    </div>
+    </section>
     <section class="column row" id="banner">
         <div class="ui stackable page left aligned grid">
             <div class="eight wide column">
@@ -66,7 +75,7 @@
             </div>
         </div>
     </section>
-    <div class="ui center aligned grey grid">
+    <div class="ui center aligned grey grid" id="features">
          <h4 class="column">Features to make you more productive</h4>
 
     </div>
@@ -175,12 +184,12 @@
     <div class="ui center aligned grey grid">
         <div class="ui green large button">START TODAY FOR FREE</div>
     </div>
+    <section id="clients">
     <div class="centered column row message1">
          <h4 class="ui center aligned purple header">INNOVATIVE COMPANIES ARE ALREADY USING ONGAIR</h4>
 
-        <p class="ui center aligned purple header">From Australia to Zimbabwe and everywhere in between</p>
+        <p class="ui center aligned red header">From Australia to Zimbabwe and everywhere in between</p>
     </div>
-    <section id="clients">
         <ul class="ui six item center aligned pointing borderless menu"> <a class="two wide active item" data-tab="heineken"><img class="ui tiny image" src="../homepage/images/heineken_logo.png"></a>  <a class="two wide item" data-tab="chase"><img class="ui tiny image" src="../homepage/images/chase_bank_logo.png"></a>
  <a class="two wide item" data-tab="nivea"><img class="ui tiny image" src="../homepage/images/nivea_logo.png"></a>
  <a class="two wide item" data-tab="castle"><img class="ui tiny image" src="../homepage/images/castle_logo.png"></a>
@@ -194,7 +203,7 @@
         </div>
         <div class="ui active content tab item" data-tab="heineken" id="heineken">
             <div class="ui stackable page left aligned grid">
-                <div class="eight wide column">
+                <div class="nine wide column">
                     <div class="column row">
                          <h2>Heineken - Road to the Final</h2>
 
@@ -310,7 +319,7 @@
 <h4 class="ui center aligned red header">Why You need Ongair</h4>
 
             <ul class="ui stackable center aligned four column grid" id="detail3">
-                <li class="three wide left aligned column">
+                <li class="three wide column">
                     <div class="ui list">
                         <div class="item">
                             <div class="ui column center aligned grid">
@@ -329,7 +338,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="three wide left aligned column">
+                <li class="three wide column">
                     <div class="ui list">
                         <div class="item">
                             <div class="ui column center aligned grid">
@@ -348,7 +357,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="three wide left aligned column">
+                <li class="three wide column">
                     <div class="ui list">
                         <div class="item">
                             <div class="ui column center aligned grid">
@@ -367,7 +376,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="three wide left aligned column">
+                <li class="three wide column">
                     <div class="ui list">
                         <div class="item">
                             <div class="ui column center aligned grid">
@@ -389,12 +398,13 @@
             </ul>
         </div>
     </section>
+    
+    <section id="prices">
     <section class="ui center aligned white grid" id="details2">
          <h4 class="ui center aligned red header">Great pricing for teams of all sizes</h4>
 
     </section>
-    <section id="prices">
-        <div class="white column row">
+        <div class="column row">
             <ul class="ui stackable center aligned four column grid">
             <li class="column">
             <div class="ui segment three wide grey center aligned column">
