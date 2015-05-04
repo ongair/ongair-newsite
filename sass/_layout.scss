@@ -136,10 +136,14 @@ p{
 }
 
 #products{
+  max-height: 40rem;
+  overflow: hidden;
   #analytics{
     position: relative;
+    max-height: 33rem;
+    overflow: hidden;
 
-      
+    
     #one{
       top: 305px;
       right: 19vw; 
@@ -225,10 +229,6 @@ p{
   h4{
       font-weight: 600;
   }
-}
-.dashboard.column.row {
-  max-height: 33rem;
-  overflow: hidden;
 }
 
 .centered.column.row.message1{
