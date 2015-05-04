@@ -19,7 +19,15 @@
 
 @media only screen and (max-width: 992px){
 	 
+	#products{
+  #analytics{
+    position: relative;
 
+    #one,#two,#three,#four{
+      display: none;
+    }
+  }
+}
 
 }//max width 960
 

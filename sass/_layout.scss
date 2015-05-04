@@ -135,6 +135,76 @@ p{
   }
 }
 
+#products{
+  #analytics{
+    position: relative;
+
+      
+    #one{
+      top: 305px;
+      right: 19vw; 
+      position: absolute;
+      p{
+        width: 9.25rem;
+        position: absolute;
+        right: -120px;
+      }
+      img{
+        width: 15vw;
+      }
+    } 
+    
+
+    #two{
+      top: 200px;
+      right: 14vw; 
+      position: absolute;
+      p{
+        width: 9.25rem;
+        position: absolute;
+        right: -90px;
+      }
+      img{
+        width: 20vw;
+      }
+    } 
+   
+
+    #three{
+      top: 271px;
+      left: 4vw; 
+      position: absolute;
+      p{
+        width: 9.25rem;
+        text-align: right;
+      }
+      img{
+        width: 26vw;
+        left: 100px;
+        position: absolute;
+      }
+    }
+
+    #four{
+     
+      top: 4.5vw;
+      left: 7vw; 
+      position: absolute;
+      p{
+        width: 9.25rem;
+        text-align: right;
+      }
+      img{
+        width: 28vw;
+        left: 96px;
+        position: absolute;
+      }
+    }
+  
+  }
+}
+
+
 .ui.item.menu, .ui.item.menu .item{
   margin-bottom: 0;
 }
@@ -157,7 +227,7 @@ p{
   }
 }
 .dashboard.column.row {
-  max-height: 35rem;
+  max-height: 33rem;
   overflow: hidden;
 }
 
