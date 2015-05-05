@@ -242,15 +242,59 @@ p{
   background-position: center;
   transform:none;
   min-height: 40.5rem;
-  .fa-whatsapp,h2,h4,p{
+  h2,h4,p{
     color: #FFFFFF;
   }
   h4{
     padding: 0 !important;
   }
-
-
 }
+
+#castle{
+  background: url("../images/castle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform:none;
+  min-height: 40.5rem;
+  h2,h4,p{
+    color: #FFFFFF;
+  }
+  h4{
+    padding: 0 !important;
+  }
+}
+
+#nivea{
+  background: url("../images/nivea.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform:none;
+  min-height: 40.5rem;
+  h2,h4,p{
+    color: #FFFFFF;
+  }
+  h4{
+    padding: 0 !important;
+  }
+}
+
+#chase{
+  background: url("../images/chase.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform:none;
+  min-height: 40.5rem;
+  h2,h4,p{
+    color: #ffffff;
+  }
+  h4{
+    padding: 0 !important;
+  }
+}
+
 .icons.grey.column.row{
  margin: 1.563rem;
  .ui.labeled.icon.menu > .item > .icon{
