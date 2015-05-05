@@ -1,0 +1,400 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=CP850", "http-equiv" => "Content-Type"}/
+    / Standard Meta
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0", :name => "viewport"}/
+    / Site Properities
+    %title Homepage
+    %link{:href => "http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "../dist/semantic.css", :rel => "stylesheet", :type => "text/css"}/
+    %script{:src => "http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"}
+    %script{:src => "http://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.js"}
+    %script{:src => "../dist/semantic.js"}
+    %link{:href => "css/main.css", :rel => "stylesheet", :type => "text/css"}/
+    %script{:src => "js/main.js"}
+  %body
+    %section.topbar
+      Celebrating 200 Happy Customers&nbsp
+      .ui.pointing.left.label Blog
+    %header.ui.sticky.navbar
+      .content
+        %img{:src => "images/logo.png"}/
+        %nav.ui.horizontal.relaxed.list.grid.computer.only.tablet.only
+          %a.item{:href => "#features"} Features
+          %a.item{:href => "#clients"} Clients
+          %a.item{:href => "#prices"} Pricing
+          .item
+            %button.ui.green.button SIGN UP
+        %nav.ui.mobile_menu.grid.mobile.only
+          %button.ui.green.button SIGN UP
+    %section.ui.grid.mobile.only
+      .column
+        .ui.three.item.menu
+          %a.item{:href => "#features"} Features
+          %a.item{:href => "#clients"} Clients
+          %a.item{:href => "#prices"} Pricing
+    %section#banner.column.row
+      .ui.stackable.page.left.aligned.grid
+        .eight.wide.column
+          .column.row
+            %h2 Your Customers are chating on Mobile
+            %h3.ui.purple.header Talk To Them
+          .column.row
+            %ul.ui.bulleted.list
+              %p.item Talk to your customers one on one
+              %p.item Private conversations and groups
+              %p.item Send them images, video and audio
+          .column.row
+            .ui.green.large.button START TODAY FOR FREE
+            %p.column.row * 14 day free trial - No credit card required
+    #features.ui.center.aligned.grey.grid
+      %h4.column Features to make you more productive
+    %section#products
+      .ui.labeled.large.icon.borderless.fluid.nine.item.menu
+        %a.purple.item{"data-tab" => "multiple_users"}
+          %i.users.icon
+          %span MULTIPLE USERS
+        %a.green.item{"data-tab" => "locations"}
+          %i.marker.icon
+          %span LOCATIONS
+        %a.active.red.item{"data-tab" => "analytics"}
+          %i.fork.icon
+          %span ANALYTICS
+        %a.orange.item{"data-tab" => "zendesk"}
+          %i.linkify.icon
+          %span ZENDESK CONNECT
+        %a.teal.item{"data-tab" => "email"}
+          %i.mail.outline.icon
+          %span EMAIL DIGEST
+        %a.purple.item{"data-tab" => "autoreply"}
+          %i.comments.outline.icon
+          %span AUTOREPLY
+        %a.yellow.item{"data-tab" => "ongair_api"}
+          %i.settings.icon
+          %span ONGAIR API
+        %a.blue.item{"data-tab" => "broadcasts"}
+          %i.announcement.icon
+          %span BROADCASTS
+      .ui.styled.accordion
+        .title
+          %i.users.icon
+          Multiple Users
+        .ui.center.aligned.column.row.content.tab{"data-tab" => "multiple_users"}
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint nemo maiores eaque non eum magni, enim aliquid, nisi. At sed sequi modi blanditiis, porro! Iste quibusdam illum quos quasi?
+        .title
+          %i.marker.icon
+          Locations
+        .ui.center.aligned.column.row.content.tab{"data-tab" => "locations"}
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint nemo maiores eaque non eum magni, enim aliquid, nisi. At sed sequi modi blanditiis, porro! Iste quibusdam illum quos quasi?
+        .active.title
+          %i.fork.icon
+          Analytics
+        #analytics.ui.dashboard.center.aligned.column.row.active.content.tab{"data-tab" => "analytics"}
+          %h4.ui.center.aligned.red.header Powerful analysts to get your business going
+          %img.ui.centered.big.image{:src => "../homepage/images/dashboard.jpg"}/
+          #one
+            %img{:src => "../homepage/images/line-1.png"}/
+            %p Measure response times and compare their change from day to day
+          #two
+            %img{:src => "../homepage/images/line-2.png"}/
+            %p Measure response times and compare their change from day to day
+          #three
+            %p Measure response times and compare their change from day to day
+            %img{:src => "../homepage/images/line-4.png"}/
+          #four
+            %p See how your messages are coming in over 6hrs, Daily or monthly
+            %img{:src => "../homepage/images/line-3.png"}/
+        .title
+          %i.linkify.icon
+          Zendesk
+        .ui.center.aligned.column.row.content.tab{"data-tab" => "zendesk"}
+          %h4.ui.center.aligned.orange.header Powerful analysts to get your business going
+          %img.ui.centered.big.image{:src => "../homepage/images/zendesk.png"}/
+        .title
+          %i.mail.icon
+          Email Digest
+        .ui.center.aligned.column.row.content.tab{"data-tab" => "email"}
+          %h4.ui.center.aligned.teal.header Powerful analysts to get your business going
+          %img.ui.centered.big.image{:src => "../homepage/images/mail-digest.jpg"}/
+        .title
+          %i.comments.outline.icon
+          Autoreply
+        .ui.center.aligned.column.row.content.tab{"data-tab" => "autoreply"}
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint nemo maiores eaque non eum magni, enim aliquid, nisi. At sed sequi modi blanditiis, porro! Iste quibusdam illum quos quasi?
+        .title
+          %i.settings.icon
+          Ongair API
+        .ui.center.aligned.column.row.content.tab{"data-tab" => "ongair_api"}
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint nemo maiores eaque non eum magni, enim aliquid, nisi. At sed sequi modi blanditiis, porro! Iste quibusdam illum quos quasi?
+        .title
+          %i.announcement.icon
+          Broadcasts
+        .ui.center.aligned.column.row.content.tab{"data-tab" => "broadcasts"}
+          %h4.ui.center.aligned.blue.header Powerful analysts to get your business going
+          %img.ui.centered.big.image{:src => "../homepage/images/broadcast.png"}/
+    .ui.center.aligned.grey.grid
+      .ui.green.large.button START TODAY FOR FREE
+    %section#clients
+      .centered.column.row.message1
+        %h4.ui.center.aligned.purple.header INNOVATIVE COMPANIES ARE ALREADY USING ONGAIR
+        %p.ui.center.aligned.red.header From Australia to Zimbabwe and everywhere in between
+      %ul.ui.six.item.center.aligned.pointing.borderless.menu
+        %a.two.wide.active.item{"data-tab" => "heineken"}
+          %img.ui.tiny.image{:src => "../homepage/images/heineken_logo.png"}/
+        %a.two.wide.item{"data-tab" => "chase"}
+          %img.ui.tiny.image{:src => "../homepage/images/chase_bank_logo.png"}/
+        %a.two.wide.item{"data-tab" => "nivea"}
+          %img.ui.tiny.image{:src => "../homepage/images/nivea_logo.png"}/
+        %a.two.wide.item{"data-tab" => "castle"}
+          %img.ui.tiny.image{:src => "../homepage/images/castle_logo.png"}/
+        %a.two.wide.item{"data-tab" => "m-changa"}
+          %img.ui.tiny.image{:src => "../homepage/images/m-changa_logo.png"}/
+      .ui.styled.accordion
+        .active.title
+          %i.dropdown.icon
+          Heineken
+        #heineken.ui.active.content.tab.item{"data-tab" => "heineken"}
+          .ui.stackable.page.left.aligned.grid
+            .eight.wide.column
+              .column.row
+                %h2 Heineken - Road to the Final
+                %p Heineken proposed using Ongair for a marketing campaign to pick one lucky winner to watch the UEFA Champions League final. The campaign consisted of an Automated Bot that answered subscribers as well as a team of moderators in Kenya and Tanzania
+                %p During the trial for campaign we recieved 3000 incoming messages and 400 images from 100 contacts.
+                %ul.ui.labeled.large.icon.borderless.fluid.four.item.menu
+                  %li.item
+                    %i.white.users.icon
+                    %h4 3000
+                    %p contacts added
+                  %li.item
+                    %i.white.settings.icon
+                    %h4 1500
+                    %p API calls
+                  %li.item
+                    %i.white.announcement.icon
+                    %h4 7500
+                    %p Outgoing
+                  %li.item
+                    %i.white.comment.outline.icon
+                    %h4 12500
+                    %p Shares
+          .ui.center.aligned.grid
+            .ui.white.inverted.large.button START TODAY FOR FREE
+        .title
+          %i.dropdown.icon
+          Chase Bank
+        .ui.content.tab.item{"data-tab" => "chase"}
+          %h1 chase bank
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sequi sunt odio eligendi tenetur optio natus excepturi, porro consequatur ratione nemo alias, maiores pariatur! Ut veritatis impedit dolor amet veniam.
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi excepturi suscipit itaque, fugit deserunt amet assumenda ad sit eligendi delectus doloremque nostrum tempora sunt corrupti voluptates ducimus, quibusdam ab alias.
+        .title
+          %i.dropdown.icon
+          Nivea
+        .ui.content.tab.item{"data-tab" => "nivea"}
+          %h1 Nivea
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sequi sunt odio eligendi tenetur optio natus excepturi, porro consequatur ratione nemo alias, maiores pariatur! Ut veritatis impedit dolor amet veniam.
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi excepturi suscipit itaque, fugit deserunt amet assumenda ad sit eligendi delectus doloremque nostrum tempora sunt corrupti voluptates ducimus, quibusdam ab alias.
+        .title
+          %i.dropdown.icon
+          Castle
+        .ui.content.tab.item{"data-tab" => "castle"}
+          %h1 Castle
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sequi sunt odio eligendi tenetur optio natus excepturi, porro consequatur ratione nemo alias, maiores pariatur! Ut veritatis impedit dolor amet veniam.
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi excepturi suscipit itaque, fugit deserunt amet assumenda ad sit eligendi delectus doloremque nostrum tempora sunt corrupti voluptates ducimus, quibusdam ab alias.
+        .title
+          %i.dropdown.icon
+          M-changa
+        .ui.content.tab.item{"data-tab" => "m-changa"}
+          %h1 M-changa
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sequi sunt odio eligendi tenetur optio natus excepturi, porro consequatur ratione nemo alias, maiores pariatur! Ut veritatis impedit dolor amet veniam.
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi excepturi suscipit itaque, fugit deserunt amet assumenda ad sit eligendi delectus doloremque nostrum tempora sunt corrupti voluptates ducimus, quibusdam ab alias.
+    %section.icons.grey.column.row
+      %h4.ui.center.aligned.red.header Powerful analysts to get your business going
+      %ul.ui.labeled.huge.icon.borderless.fluid.five.item.menu
+        %li.item
+          %i.purple.users.icon
+          %h4.ui.purple.header 3000
+          %p contacts added
+        %li.item
+          %i.purple.settings.icon
+          %h4.ui.purple.header 1500
+          %p API calls
+        %li.item
+          %i.purple.announcement.icon
+          %h4.ui.purple.header 7500
+          %p Outgoing
+        %li.item
+          %i.purple.comment.outline.icon
+          %h4.ui.purple.header 12500
+          %p Shares
+    %section#details1
+      .details.centered.white.column.row
+        %h4.ui.center.aligned.red.header Why You need Ongair
+        %ul#detail3.ui.stackable.center.aligned.four.column.grid
+          %li.three.wide.column
+            .ui.list
+              .item
+                .ui.column.center.aligned.grid
+                  .sixteen.wide.column
+                    %i.blue.dashboard.huge.icon
+                  .sixteen.wide.column
+                    %h5.content Help customers faster
+              %div
+                %p With out-of-the-box support you can talk to and help customers faster and faster
+                %a
+                  Learn More
+                  %i.caret.right.icon
+          %li.three.wide.column
+            .ui.list
+              .item
+                .ui.column.center.aligned.grid
+                  .sixteen.wide.column
+                    %i.purple.bar.chart.huge.icon
+                  .sixteen.wide.column
+                    %h5.content Make better decisions
+              %div
+                %p Bring all your data together and get the insights you need to make faster smarter decisions
+                %a
+                  Learn More
+                  %i.caret.right.icon
+          %li.three.wide.column
+            .ui.list
+              .item
+                .ui.column.center.aligned.grid
+                  .sixteen.wide.column
+                    %i.orange.life.ring.huge.icon
+                  .sixteen.wide.column
+                    %h5.content Help customers help themselves
+              %div
+                %p Share your knowledge on a self-service so your customers can find their own answers
+                %a
+                  Learn More
+                  %i.caret.right.icon
+          %li.three.wide.column
+            .ui.list
+              .item
+                .ui.column.center.aligned.grid
+                  .sixteen.wide.column
+                    %i.green.building.outline.huge.icon
+                  .sixteen.wide.column
+                    %h5.content Scale as you grow.
+              %div
+                %p Easily upgrade to Service Cloud when youneed more capabilities and customization.
+                %a
+                  Learn More
+                  %i.caret.right.icon
+    %section#prices
+      %section#details2.ui.center.aligned.white.grid
+        %h4.ui.center.aligned.red.header Great pricing for teams of all sizes
+      .column.row
+        %ul.ui.stackable.center.aligned.four.column.grid
+          %li.column
+            .ui.segment.three.wide.grey.center.aligned.column
+              %h5.ui.header Small Business
+              .ui.small.statistic
+                .value
+                  %sup> $
+                  22
+                  %sub /mo
+              %p Great for small businesses selling fast moving consumer goods etc
+              %p $35 month-to-month
+              .ui.purple.large.button TRY IT FREE
+            .ui.segment.three.wide.center.aligned.column
+              %p Case management
+              %p Multi-Channel support
+              %p Desk.com mobile app
+              %p Self-service support
+          %li.column.mobile.only
+            .ui.divider
+          %li.column
+            .ui.segment.three.wide.grey.center.aligned.column
+              %h5.ui.header Medium Enterprise
+              .ui.purple.sixteen.wide.column MOST POPULAR
+              .ui.small.statistic
+                .value
+                  %sup> $
+                  250
+                  %sub /mo
+              %p Everything you need to take support to the next level
+              %p $70 month-to-month
+              .ui.green.large.button TRY IT FREE
+            .ui.segment.three.wide.center.aligned.column
+              %p.ui.header All Small biz features plus
+              %p Ongair for Zendesk plugin
+              %p API access with 2000 calls
+              %p Advanced analytics and reporting
+              %p 10GB media storage
+              %p 10 user accounts
+          %li.column.mobile.only
+            .ui.divider
+          %li.column
+            .ui.segment.three.wide.grey.center.aligned.column
+              %h5.ui.header Large Business
+              .ui.small.statistic
+                .value
+                  %sup> $
+                  750
+                  %sub /mo
+              %p Advanced capabilities to quickly scale your business
+              %p $110 month-to-month
+              .ui.purple.large.button TRY IT FREE
+            .ui.segment.three.wide.center.aligned.column
+              %p.ui.header All Medium Features Plus
+              %p Ongair for Zendesk plugin
+              %p API access with 2000 calls
+              %p Advanced analytics and reporting
+              %p 10GB media storage
+              %p 10 user accounts
+          %li.column.mobile.only
+            .ui.divider
+          %li.column
+            .ui.segment.three.wide.grey.center.aligned.column
+              %h5.ui.header Custom Build
+              .ui.small.statistic
+                .value
+                  %sup> $
+                  1000+
+                  %sub /mo
+              %p Deep customization for comprehensive support
+              %p Annual only
+              .ui.purple.large.button TRY IT FREE
+            .ui.segment.three.wide.center.aligned.column
+              %p.ui.header All Large features plus
+              %p Ongair for Zendesk plugin
+              %p API access with 2000 calls
+              %p Advanced analytics and reporting
+              %p 10GB media storage
+              %p 10 user accounts
+    %section.ui.center.aligned.white.grid
+      %h4.center.aligned.column What People have said about us
+    %section#brands
+      %ul.brands.ui.stackable.five.column.page.grid
+        %li.column
+          %img.ui.small.centered.image{:src => "../homepage/images/bbc.png"}/
+        %li.column
+          %img.ui.small.centered.image{:src => "../homepage/images/wired.png"}/
+        %li.column
+          %img.ui.small.centered.image{:src => "../homepage/images/venturebeat.png"}/
+        %li.column
+          %img.ui.small.centered.image{:src => "../homepage/images/pcadvisor.png"}/
+        %li.column
+          %img.ui.small.centered.image{:src => "../homepage/images/nairobi_garage.png"}/
+    %footer
+      .ui.page.grid
+        %nav.left.ui.horizontal.list
+          %h3.item sprout
+          %a.item About Us
+          %a.item Contact Us
+          %a.item Blog
+        %nav.right.ui.horizontal.list
+          %a.item Terms and conditions
+          %a.item Privacy Policy
+          .item
+            %a{:href => "https://www.facebook.com/letsOngair", :target => "_blank"}
+              %i.circular.facebook.link.icon
+            %a{:href => "http://twitter.com/ongair_", :target => "_blank"}
+              %i.circular.inverted.twitter.link.icon
+            %a{:href => "http://www.youtube.com/channel/UCqjdKgBO3pToXYmTS3HuBgQ/feed", :target => "_blank"}
+              %i.circular.inverted.youtube.play.link.icon
