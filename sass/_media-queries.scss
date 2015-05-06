@@ -89,8 +89,10 @@
 }//max width 768
 
 @media only screen and (max-width: 500px){
-	#heineken .item {
+	#heineken,#chase,#nivea,#castle,#cheki{
+	 .item {
   		width: 50%;
+  		}
 	}
 }//max width 500
 
@@ -107,7 +109,7 @@
 		display: block;
 		text-align: center;
 	}
-	#heineken{
+	#heineken,#chase,#nivea,#castle,#cheki{
 		.eight.wide.column{
 			text-align: center;
 		}

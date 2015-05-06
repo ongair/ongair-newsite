@@ -280,6 +280,21 @@ p{
   }
 }
 
+#cheki{
+  background: url("../images/cheki.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform:none;
+  min-height: 40.5rem;
+  h2,h4,p{
+    color: #FFFFFF;
+  }
+  h4{
+    padding: 0 !important;
+  }
+}
+
 #chase{
   background: url("../images/chase.png");
   background-size: cover;
@@ -322,7 +337,7 @@ p{
       min-height: 20.000rem;
 
       .statistic{
-        padding: 0.313rem 0 0.938rem
+        padding: 0.313rem 0 0.938rem;
       }
       .pink.button{
         background-color: $pink;

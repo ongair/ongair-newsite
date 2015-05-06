@@ -69,10 +69,11 @@
         %a.teal.item{"data-tab" => "email"}
           %i.mail.outline.icon
           %span EMAIL DIGEST
-        %a.purple.item{"data-tab" => "autoreply"}
-          %i.comments.outline.icon
-          %span AUTOREPLY
-        %a.red.item{"data-tab" => "ongair_api"}
+          /
+            %a.purple.item{"data-tab" => "autoreply"}
+              %i.comments.outline.icon
+              %span AUTOREPLY
+        %a.purple.item{"data-tab" => "ongair_api"}
           %i.settings.icon
           %span ONGAIR API
         %a.blue.item{"data-tab" => "broadcasts"}
@@ -121,11 +122,12 @@
         .ui.center.aligned.column.row.content.tab{"data-tab" => "email"}
           %h4.ui.center.aligned.teal.header Powerful analysts to get your business going
           %img.ui.centered.big.image{:src => "../homepage/images/mail-digest.jpg"}/
-        .title
-          %i.comments.outline.icon
-          Autoreply
-        .ui.center.aligned.column.row.content.tab{"data-tab" => "autoreply"}
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint nemo maiores eaque non eum magni, enim aliquid, nisi. At sed sequi modi blanditiis, porro! Iste quibusdam illum quos quasi?
+          /
+            .title
+              %i.comments.outline.icon
+              Autoreply
+            .ui.center.aligned.column.row.content.tab{"data-tab" => "autoreply"}
+              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint nemo maiores eaque non eum magni, enim aliquid, nisi. At sed sequi modi blanditiis, porro! Iste quibusdam illum quos quasi?
         .title
           %i.settings.icon
           Ongair API
@@ -153,8 +155,8 @@
           %img.ui.tiny.image{:src => "../homepage/images/nivea_logo.png"}/
         %a.two.wide.item{"data-tab" => "castle"}
           %img.ui.tiny.image{:src => "../homepage/images/castle_logo.png"}/
-        %a.two.wide.item{"data-tab" => "m-changa"}
-          %img.ui.tiny.image{:src => "../homepage/images/m-changa_logo.png"}/
+        %a.two.wide.item{"data-tab" => "cheki"}
+          %img.ui.tiny.image{:src => "../homepage/images/cheki_logo.png"}/
       .ui.styled.accordion
         .active.title
           %i.dropdown.icon
@@ -274,8 +276,8 @@
             .ui.white.inverted.large.button START TODAY FOR FREE
         .title
           %i.dropdown.icon
-          M-changa
-        .ui.content.tab.item{"data-tab" => "m-changa"}
+          Cheki
+        #cheki.ui.content.tab.item{"data-tab" => "cheki"}
           .ui.stackable.page.left.aligned.grid
             .eight.wide.column
               .column.row
@@ -388,7 +390,7 @@
                 .value
                   %sup> $
                   22
-                  %sub /mo
+                  %sub> /mo
               %p Great for small businesses selling fast moving consumer goods etc
               %p $35 month-to-month
               .ui.purple.large.button TRY IT FREE
@@ -407,7 +409,7 @@
                 .value
                   %sup> $
                   250
-                  %sub /mo
+                  %sub> /mo
               %p Everything you need to take support to the next level
               %p $70 month-to-month
               .ui.green.large.button TRY IT FREE
@@ -427,7 +429,7 @@
                 .value
                   %sup> $
                   750
-                  %sub /mo
+                  %sub> /mo
               %p Advanced capabilities to quickly scale your business
               %p $110 month-to-month
               .ui.purple.large.button TRY IT FREE
@@ -447,7 +449,7 @@
                 .value
                   %sup> $
                   1000+
-                  %sub /mo
+                  %sub> /mo
               %p Deep customization for comprehensive support
               %p Annual only
               .ui.purple.large.button TRY IT FREE
