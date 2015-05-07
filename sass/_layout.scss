@@ -67,7 +67,7 @@ p{
   text-align: center;
   display: block;
   padding: 1rem 0;
-    color: #FFFFFF;
+    color: $white;
    font-size: 16px;
    margin: 0;
     .label{
@@ -75,7 +75,7 @@ p{
   }
 }
 .ui.sticky.navbar{
-  background-color: #FFFFFF;
+  background-color: $white;
  .content{
     max-width: 83%;
     margin-left: auto;
@@ -126,7 +126,7 @@ p{
     min-height: 20.000rem;
   }
 .center.aligned.grey.grid{
-  background-color: #c8c8c8;
+  background-color: $grey;
   margin: 0;
 
   h4{
@@ -235,78 +235,39 @@ p{
   padding: 1.250rem 0;
 }
 
-#heineken{
-  background: url("../images/Heineken.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  transform:none;
-  min-height: 40.5rem;
-  h2,h4,p{
-    color: #FFFFFF;
+#clients{
+  .clientbox{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform:none;
+    min-height: 40.5rem;
+    h2,h4,p{
+      color: $white;
+    }
+    h4{
+      padding: 0 !important;
+    }
   }
-  h4{
-    padding: 0 !important;
-  }
-}
 
-#castle{
-  background: url("../images/castle.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  transform:none;
-  min-height: 40.5rem;
-  h2,h4,p{
-    color: #FFFFFF;
+  .heineken{
+    background-image: url("../images/Heineken.jpg");
   }
-  h4{
-    padding: 0 !important;
-  }
-}
 
-#nivea{
-  background: url("../images/nivea.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  transform:none;
-  min-height: 40.5rem;
-  h2,h4,p{
-    color: #FFFFFF;
+  .castle{
+    background-image: url("../images/castle.png");
   }
-  h4{
-    padding: 0 !important;
-  }
-}
 
-#cheki{
-  background: url("../images/cheki.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  transform:none;
-  min-height: 40.5rem;
-  h2,h4,p{
-    color: #FFFFFF;
+  .nivea{
+    background-image: url("../images/nivea.png");
   }
-  h4{
-    padding: 0 !important;
-  }
-}
 
-#chase{
-  background: url("../images/chase.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  transform:none;
-  min-height: 40.5rem;
-  h2,h4,p{
-    color: #ffffff;
+  .cheki{
+    background-image: url("../images/cheki.png");
   }
-  h4{
-    padding: 0 !important;
+
+  .chase{
+    background-image: url("../images/chase.png");
   }
 }
 
@@ -385,7 +346,7 @@ footer{
     .item{
       margin: 0;
       vertical-align: middle !important;
-      color: #FFFFFF;
+      color: $white;
     }
     h3{
       font-size: 1.875rem !important;
@@ -397,7 +358,7 @@ footer{
       padding: 0 0.5rem !important;
     }
     a:hover{
-      color: #FFFFFF !important;
+      color: $white !important;
     }
   } 
   .right.ui.list{
