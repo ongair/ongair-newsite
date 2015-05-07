@@ -112,7 +112,7 @@ p{
   background-repeat: no-repeat;
   background-position: center;
   transform:none;
-  min-height: 31.5rem;
+  min-height: calc(100vh - 139px);
   ul{
     margin-top: 0.938rem;
     margin-bottom: 0.938rem;
