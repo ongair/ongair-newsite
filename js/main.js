@@ -24,16 +24,8 @@ $(document)
 ;
 
   $('.ui.accordion')
-  .accordion( 
-  {
-    exclusive   : true,
-    selector    : {
-      accordion : '.accordion',
-
-  }
-
-  })
-;
+    .accordion()
+  ;
 
 
   })
