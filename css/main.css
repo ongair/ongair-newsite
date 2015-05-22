@@ -120,7 +120,8 @@ h5 {
 
 h6 {
   line-height: 1.5;
-  font-size: 1rem !important; }
+  font-size: 16px !important;
+  font-weight: 500; }
 
 p {
   font-size: 0.9375rem !important;
@@ -261,14 +262,16 @@ p {
         left: 96px;
         position: absolute; }
 
-#why-ongair h5 {
-  color: #fa4860;
-  font-size: 1.2em;
-  font-weight: 400;
-  padding-bottom: 0.5rem; }
-#why-ongair h3 {
-  font-weight: 400 !important;
-  color: #713388; }
+#why-ongair, #pricing {
+  padding-top: 3rem; }
+  #why-ongair h5, #pricing h5 {
+    color: #fa4860;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-bottom: 0.5rem; }
+  #why-ongair h3, #pricing h3 {
+    font-weight: 400 !important;
+    color: #713388; }
 
 .ui.item.menu, .ui.item.menu .item {
   margin-bottom: 0; }
@@ -389,7 +392,7 @@ footer {
 
 /* Import Media Queries */
 /* ==================================================== */
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1900px) {
   .title {
     display: none; } }
 @media only screen and (max-width: 992px) {
