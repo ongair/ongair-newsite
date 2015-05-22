@@ -12,7 +12,7 @@ body{
   sub{
     font-size: 50%;
   }
-h1,h2,h3,p,a{
+h1,h2,h3,h5,h6,p,a{
   font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
 }
 
@@ -42,10 +42,13 @@ padding: 1.25rem 2rem !important;
 color: $pink;
 }
 h5{  
-font-weight: 600 !important;
-font-size: 1.125rem !important;
-
+font-weight: 600;
+font-size: 1.125rem;
 margin: 0;
+}
+h6{  
+line-height: 1.5;
+font-size: 1rem !important;
 }
 p{
   font-size: 0.9375rem !important;
@@ -67,11 +70,14 @@ p{
   text-align: center;
   display: block;
   padding: 1rem 0;
-    color: $white;
-   font-size: 16px;
-   margin: 0;
+  color: $white;
+  font-size: 16px;
+  margin: 0;
     .label{
     vertical-align: middle;
+  }
+  a{
+    color: $white;
   }
 }
 .ui.sticky.navbar{
@@ -81,6 +87,9 @@ p{
     margin-left: auto;
     margin-right: auto;
     padding: 1rem 0;
+    .ui.button{
+      color: $white !important;
+    }
     
     .ui.list,.mobile_menu{
       float: right;
@@ -106,14 +115,9 @@ p{
   transition: all 500ms ease;
 }
 
-
   #banner{
-  background: url("../images/topbanner.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  transform:none;
-  min-height: calc(100vh - 139px);
-  ul{
+    background: url("../images/topbanner.jpg");
+    ul{
     margin-top: 0.938rem;
     margin-bottom: 0.938rem;
 
@@ -121,6 +125,28 @@ p{
       margin: 0;
     }
   }
+  }
+  #hero{
+    background: url("../images/zendesk-hero.png");
+    h5{
+      color: $pink;
+      font-size: 1.2em;
+      font-weight: 400;
+      padding-bottom: 0.5rem;
+    }
+    h3{
+      font-weight: 400 !important;
+      color: $purple;
+    }
+  }
+
+  #banner, #hero{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform:none;
+  min-height: calc(100vh - 139px);
+  padding: 15vh 0;
   }
   .tabs{
     min-height: 20.000rem;
@@ -208,6 +234,18 @@ p{
   }
 }
 
+#why-ongair{
+   h5{
+      color: $pink;
+      font-size: 1.2em;
+      font-weight: 400;
+      padding-bottom: 0.5rem;
+    }
+    h3{
+      font-weight: 400 !important;
+      color: $purple;
+    }
+}
 
 .ui.item.menu, .ui.item.menu .item{
   margin-bottom: 0;
