@@ -10,7 +10,6 @@
 	Special thanks to Daniel Eden
 	Animate.css - http://daneden.me/animate
 */
-@import 'general', 'animate';
 
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -38,6 +37,14 @@
 
   zoom: 1;
 }
+
+/* Colours */ 
+/* ==================================================== */
+$brown:#a44d1b;
+$pink:#fa4860;
+$white:#ffffff;
+$grey:#c8c8c8;
+$hoverpink:#FF5E73;
 
 
 img::selection {
@@ -82,12 +89,4 @@ a:active { text-decoration: none; }
 
 @import 'media-queries';
 
-@import 'opera';
-
-
-
-/* Import Cross-browser Compaitibility Files */
-/* ==================================================== */
-
-@import 'ie7', 'ie8', 'ie9';
 
