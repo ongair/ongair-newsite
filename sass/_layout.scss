@@ -65,6 +65,12 @@ p{
   width: inherit;
 }
 
+.home_site_zendesk{
+  .ui.divider{
+    margin-top: 0;
+  }
+}
+
 .topbar {
   padding-top: 1.875rem;
   background-color: #293c43 !important;
@@ -118,7 +124,7 @@ p{
 }
 .ui.sticky.navbar.fixed.top{
   background-color: rgba(254,254,254,0.8);
-  height: 70px !important;
+  height: 68px !important;
   padding: 0 0.625rem;
   box-shadow: 0 0.063rem 0.188rem 0 rgba(0,0,0,0.5);
   -webkit-transition: all 500ms ease;
@@ -126,9 +132,21 @@ p{
   -o-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   transition: all 500ms ease;
-  .ui.button{
-      margin: 0 !important;
-    }
+  .content {
+    padding: 0.5rem 0;
+    .logo{
+        background: url("../images/o.png");
+        background-size: contain;
+        //width: 80px;
+        height: 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+      }
+    .ui.button{
+        margin: 0 !important;
+      }
+  }
 }
 
   #banner{
@@ -401,9 +419,9 @@ p{
   }
 }
 #signup{
+  padding-bottom: 2rem;
  h2{
-  font-size: 2em !important;
-  font-weight: 200 !important;
+  font-size: 2rem !important;
   color: #2f3588;
  }
 }
