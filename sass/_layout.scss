@@ -74,6 +74,7 @@ p{
   color: $white;
   font-size: 16px;
   margin: 0;
+
     .label{
     vertical-align: middle;
   }
@@ -83,11 +84,21 @@ p{
 }
 .ui.sticky.navbar{
   background-color: $white;
+  height: 85px;
  .content{
     max-width: 83%;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem 0;
+    .logo{
+      background: url("../images/logo.png");
+      background-size: contain;
+      width: 150px;
+      height: 60px;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: inline-block;
+    }
     .ui.button{
       color: $white !important;
     }
@@ -107,6 +118,7 @@ p{
 }
 .ui.sticky.navbar.fixed.top{
   background-color: rgba(254,254,254,0.8);
+  height: 70px !important;
   padding: 0 0.625rem;
   box-shadow: 0 0.063rem 0.188rem 0 rgba(0,0,0,0.5);
   -webkit-transition: all 500ms ease;
@@ -114,6 +126,9 @@ p{
   -o-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   transition: all 500ms ease;
+  .ui.button{
+      margin: 0 !important;
+    }
 }
 
   #banner{
