@@ -283,7 +283,8 @@ p {
     padding-bottom: 0.5rem; }
   #why-ongair h3, #pricing h3 {
     font-weight: 400 !important;
-    color: #713388; }
+    color: #713388;
+    font-size: 2em !important; }
 
 .ui.item.menu, .ui.item.menu .item {
   margin-bottom: 0; }
@@ -323,6 +324,9 @@ p {
   background-image: url("../images/cheki.png"); }
 #clients .chase {
   background-image: url("../images/chase.png"); }
+
+.zendesk-clients h4 {
+  color: #2f3588; }
 
 .icons.grey.column.row {
   margin: 1.563rem; }
@@ -373,6 +377,11 @@ p {
   .brands .column {
     vertical-align: middle !important; }
 
+#signup h2 {
+  font-size: 2em !important;
+  font-weight: 200 !important;
+  color: #2f3588; }
+
 footer {
   min-height: 5rem;
   padding: 1.125rem 0;
@@ -413,6 +422,15 @@ footer {
     #products #analytics #one, #products #analytics #two, #products #analytics #three, #products #analytics #four {
       display: none; } }
 @media only screen and (max-width: 768px) {
+  .home_site_zendesk .ui.divider {
+    padding-bottom: 30px; }
+
+  #why-ongair, #pricing {
+    padding-top: 2rem !important; }
+    #why-ongair .column, #pricing .column {
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important; }
+
   .navbar .ui.list {
     float: right; }
 
