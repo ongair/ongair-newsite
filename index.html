@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=CP850' http-equiv='Content-Type'>
+    <!-- Standard Meta -->
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0' name='viewport'>
+    <!-- Site Properities -->
+    <title>Homepage</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link href='dist/semantic.css' rel='stylesheet' type='text/css'>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.js'></script>
+    <script src='dist/semantic.js'></script>
+    <link href='css/main.css' rel='stylesheet' type='text/css'>
+    <script src='js/main.js'></script>
+  </head>
+  <body>
+    <section class='topbar'>
+      Celebrating 200 Happy Customers&nbsp;
+      <div class='ui pointing left label'>Blog</div>
+    </section>
+    <header class='ui sticky navbar'>
+      <div class='content'>
+        <img src='images/logo.png'>
+        <nav class='ui horizontal relaxed list grid computer only tablet only'>
+          <a class='item' href='#features'>Features</a>
+          <a class='item' href='#clients'>Clients</a>
+          <a class='item' href='#prices'>Pricing</a>
+          <div class='item'>
+            <button class='ui green button'>SIGN UP</button>
+          </div>
+        </nav>
+        <nav class='ui mobile_menu grid mobile only'>
+          <button class='ui green button'>SIGN UP</button>
+        </nav>
+      </div>
+    </header>
+    <section class='ui grid mobile only'>
+      <div class='column'>
+        <div class='ui three item menu'>
+          <a class='item' href='#features'>Features</a>
+          <a class='item' href='#clients'>Clients</a>
+          <a class='item' href='#prices'>Pricing</a>
+        </div>
+      </div>
+    </section>
+    <section class='column row' id='banner'>
+      <div class='ui stackable page left aligned grid'>
+        <div class='eight wide column'>
+          <div class='column row'>
+            <h2>Your Customers are chating on Mobile</h2>
+            <h3 class='ui purple header'>Talk To Them</h3>
+          </div>
+          <div class='column row'>
+            <ul class='ui bulleted list'>
+              <p class='item'>Talk to your customers one on one</p>
+              <p class='item'>Private conversations and groups</p>
+              <p class='item'>Send them images, video and audio</p>
+            </ul>
+          </div>
+          <div class='column row'>
+            <div class='ui green large button'>START TODAY FOR FREE</div>
+            <p class='column row'>* 14 day free trial - No credit card required</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class='ui center aligned grey grid' id='features'>
+      <h4 class='column'>Features to make you more productive</h4>
+    </div>
+    <section id='products'>
+      <div class='ui labeled large icon borderless fluid nine item menu'>
+        <a class='purple item' data-tab='multiple_users'>
+          <i class='users icon'></i>
+          <span>MULTIPLE USERS</span>
+        </a>
+        <a class='green item' data-tab='locations'>
+          <i class='marker icon'></i>
+          <span>LOCATIONS</span>
+        </a>
+        <a class='active red item' data-tab='analytics'>
+          <i class='fork icon'></i>
+          <span>ANALYTICS</span>
+        </a>
+        <a class='orange item' data-tab='zendesk'>
+          <i class='linkify icon'></i>
+          <span>ZENDESK CONNECT</span>
+        </a>
+        <a class='teal item' data-tab='email'>
+          <i class='mail outline icon'></i>
+          <span>EMAIL DIGEST</span>
+          <!--
+            <a class='purple item' data-tab='autoreply'>
+              <i class='comments outline icon'></i>
+              <span>AUTOREPLY</span>
+            </a>
+          -->
+        </a>
+        <a class='purple item' data-tab='ongair_api'>
+          <i class='settings icon'></i>
+          <span>ONGAIR API</span>
+        </a>
+        <a class='blue item' data-tab='broadcasts'>
+          <i class='announcement icon'></i>
+          <span>BROADCASTS</span>
+        </a>
+      </div>
+      <div class='ui styled accordion'>
+        <div class='title'>
+          <i class='users icon'></i>
+          Multiple Users
+        </div>
+        <div class='ui center aligned column row content tab' data-tab='multiple_users'>
+          <h4 class='ui center aligned purple header'>Powerful analysts to get your business going</h4>
+          <img class='ui centered huge image' src='images/users.png'>
+        </div>
+        <div class='title'>
+          <i class='marker icon'></i>
+          Locations
+        </div>
+        <div class='ui center aligned column row content tab' data-tab='locations'>
+          <h4 class='ui center aligned green header'>Powerful analysts to get your business going</h4>
+          <img class='ui centered big image' src='images/locations.png'>
+        </div>
+        <div class='active title'>
+          <i class='fork icon'></i>
+          Analytics
+        </div>
+        <div class='ui dashboard center aligned column row active content tab' data-tab='analytics' id='analytics'>
+          <h4 class='ui center aligned red header'>Powerful analysts to get your business going</h4>
+          <img class='ui centered big image' src='images/dashboard.jpg'>
+          <div id='one'>
+            <img src='images/line-1.png'>
+            <p>Measure response times and compare their change from day to day</p>
+          </div>
+          <div id='two'>
+            <img src='images/line-2.png'>
+            <p>Measure response times and compare their change from day to day</p>
+          </div>
+          <div id='three'>
+            <p>Measure response times and compare their change from day to day</p>
+            <img src='images/line-4.png'>
+          </div>
+          <div id='four'>
+            <p>See how your messages are coming in over 6hrs, Daily or monthly</p>
+            <img src='images/line-3.png'>
+          </div>
+        </div>
+        <div class='title'>
+          <i class='linkify icon'></i>
+          Zendesk
+        </div>
+        <div class='ui center aligned column row content tab' data-tab='zendesk'>
+          <h4 class='ui center aligned orange header'>Powerful analysts to get your business going</h4>
+          <img class='ui centered big image' src='images/zendesk.png'>
+        </div>
+        <div class='title'>
+          <i class='mail icon'></i>
+          Email Digest
+        </div>
+        <div class='ui center aligned column row content tab' data-tab='email'>
+          <h4 class='ui center aligned teal header'>Powerful analysts to get your business going</h4>
+          <img class='ui centered big image' src='images/mail-digest.jpg'>
+          <!--
+            <div class='title'>
+              <i class='comments outline icon'></i>
+              Autoreply
+            </div>
+            <div class='ui center aligned column row content tab' data-tab='autoreply'>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sint nemo maiores eaque non eum magni, enim aliquid, nisi. At sed sequi modi blanditiis, porro! Iste quibusdam illum quos quasi?</p>
+            </div>
+          -->
+        </div>
+        <div class='title'>
+          <i class='settings icon'></i>
+          Ongair API
+        </div>
+        <div class='ui center aligned column row content tab' data-tab='ongair_api'>
+          <h4 class='ui center aligned red header'>Powerful analysts to get your business going</h4>
+          <img class='ui centered big image' src='images/api.png'>
+        </div>
+        <div class='title'>
+          <i class='announcement icon'></i>
+          Broadcasts
+        </div>
+        <div class='ui center aligned column row content tab' data-tab='broadcasts'>
+          <h4 class='ui center aligned blue header'>Powerful analysts to get your business going</h4>
+          <img class='ui centered big image' src='images/broadcast.png'>
+        </div>
+      </div>
+    </section>
+    <div class='ui center aligned grey grid'>
+      <div class='ui green large button'>START TODAY FOR FREE</div>
+    </div>
+    <section id='clients'>
+      <div class='centered column row message1'>
+        <h4 class='ui center aligned purple header'>INNOVATIVE COMPANIES ARE ALREADY USING ONGAIR</h4>
+        <p class='ui center aligned red header'>From Australia to Zimbabwe and everywhere in between</p>
+      </div>
+      <ul class='ui six item center aligned pointing borderless menu'>
+        <a class='two wide active item' data-tab='heineken'>
+          <img class='ui tiny image' src='images/heineken_logo.png'>
+        </a>
+        <a class='two wide item' data-tab='chase'>
+          <img class='ui tiny image' src='images/chase_bank_logo.png'>
+        </a>
+        <a class='two wide item' data-tab='nivea'>
+          <img class='ui tiny image' src='images/nivea_logo.png'>
+        </a>
+        <a class='two wide item' data-tab='castle'>
+          <img class='ui tiny image' src='images/castle_logo.png'>
+        </a>
+        <a class='two wide item' data-tab='cheki'>
+          <img class='ui tiny image' src='images/cheki_logo.png'>
+        </a>
+      </ul>
+      <div class='ui styled accordion'>
+        <div class='active title'>
+          <i class='dropdown icon'></i>
+          Heineken
+        </div>
+        <div class='clientbox heineken ui active content tab item' data-tab='heineken'>
+          <div class='ui stackable page left aligned grid'>
+            <div class='eight wide column'>
+              <div class='column row'>
+                <h2>Heineken - Road to the Final</h2>
+                <p>Heineken proposed using Ongair for a marketing campaign to pick one lucky winner to watch the UEFA Champions League final. The campaign consisted of an Automated Bot that answered subscribers as well as a team of moderators in Kenya and Tanzania</p>
+                <p>During the trial for campaign we recieved 3000 incoming messages and 400 images from 100 contacts.</p>
+                <ul class='ui labeled large icon borderless fluid four item menu'>
+                  <li class='item'>
+                    <i class='white users icon'></i>
+                    <h4>3000</h4>
+                    <p>contacts added</p>
+                  </li>
+                  <li class='item'>
+                    <i class='white settings icon'></i>
+                    <h4>1500</h4>
+                    <p>API calls</p>
+                  </li>
+                  <li class='item'>
+                    <i class='white announcement icon'></i>
+                    <h4>7500</h4>
+                    <p>Outgoing</p>
+                  </li>
+                  <li class='item'>
+                    <i class='white comment outline icon'></i>
+                    <h4>12500</h4>
+                    <p>Shares</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class='ui center aligned grid'>
+            <div class='ui white inverted large button'>START TODAY FOR FREE</div>
+          </div>
+        </div>
+        <div class='title'>
+          <i class='dropdown icon'></i>
+          Chase Bank
+        </div>
+        <div class='clientbox chase ui content tab item' data-tab='chase'>
+          <div class='ui stackable page left aligned grid'>
+            <div class='eight wide column'>
+              <div class='column row'>
+                <h2>Chase - The Relationship bank</h2>
+                <p>Chase was the first bank in Africa to use IM for customer care, Ongair helped them.</p>
+                <p>During the trial for campaign we recieved 3000 incoming messages and 400 images from 100 contacts.</p>
+                <ul class='ui labeled large icon borderless fluid four item menu'>
+                  <li class='item'>
+                    <i class='white users icon'></i>
+                    <h4>57,000</h4>
+                    <p>messages sent</p>
+                  </li>
+                  <li class='item'>
+                    <i class='white settings icon'></i>
+                    <h4>15,000</h4>
+                    <p>contacts added</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class='ui center aligned grid'>
+            <div class='ui white inverted large button'>START TODAY FOR FREE</div>
+          </div>
+        </div>
+        <div class='title'>
+          <i class='dropdown icon'></i>
+          Nivea
+        </div>
+        <div class='clientbox nivea ui content tab item' data-tab='nivea'>
+          <div class='ui stackable page left aligned grid'>
+            <div class='eight wide column'>
+              <div class='column row'>
+                <h2>Heineken - Road to the Final</h2>
+                <p>Heineken proposed using Ongair for a marketing campaign to pick one lucky winner to watch the UEFA Champions League final. The campaign consisted of an Automated Bot that answered subscribers as well as a team of moderators in Kenya and Tanzania</p>
+                <p>During the trial for campaign we recieved 3000 incoming messages and 400 images from 100 contacts.</p>
+                <ul class='ui labeled large icon borderless fluid four item menu'>
+                  <li class='item'>
+                    <i class='white users icon'></i>
+                    <h4>3000</h4>
+                    <p>contacts added</p>
+                  </li>
+                  <li class='item'>
+                    <i class='white settings icon'></i>
+                    <h4>1500</h4>
+                    <p>API calls</p>
+                  </li>
+                  <li class='item'>
+                    <i class='white announcement icon'></i>
+                    <h4>7500</h4>
+                    <p>Outgoing</p>
+                  </li>
+                  <li class='item'>
+                    <i class='white comment outline icon'></i>
+                    <h4>12500</h4>
+                    <p>Shares</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class='ui center aligned grid'>
+            <div class='ui white inverted large button'>START TODAY FOR FREE</div>
+          </div>
+        </div>
+        <div class='title'>
+          <i class='dropdown icon'></i>
+          Castle
+        </div>
+        <div class='clientbox castle ui content tab item' data-tab='castle'>
+          <div class='ui stackable page left aligned grid'>
+            <div class='eight wide column'>
+              <div class='column row'>
+                <h2>Heineken - Road to the Final</h2>
+                <p>Heineken proposed using Ongair for a marketing campaign to pick one lucky winner to watch the UEFA Champions League final. The campaign consisted of an Automated Bot that answered subscribers as well as a team of moderators in Kenya and Tanzania</p>
+                <p>During the trial for campaign we recieved 3000 incoming messages and 400 images from 100 contacts.</p>
+                <ul class='ui labeled large icon borderless fluid four item menu'>
+                  <li class='item'>
+                    <i class='white users icon'></i>
+                    <h4>3000</h4>
+                    <p>contacts added</p>
+                  </li>
+                  <li class='item'>
+                    <i class='white settings icon'></i>
+                    <h4>1500</h4>
+                    <p>API calls</p>
+                  </li>
+                  <li class='item'>
+                    <i class='white announcement icon'></i>
+                    <h4>7500</h4>
+                    <p>Outgoing</p>
+                  </li>
+                  <li class='item'>
+                    <i class='white comment outline icon'></i>
+                    <h4>12500</h4>
+                    <p>Shares</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class='ui center aligned grid'>
+            <div class='ui white inverted large button'>START TODAY FOR FREE</div>
+          </div>
+        </div>
+        <div class='title'>
+          <i class='dropdown icon'></i>
+          Cheki
+        </div>
+        <div class='clientbox cheki ui content tab item' data-tab='cheki'>
+          <div class='ui stackable page left aligned grid'>
+            <div class='eight wide column'>
+              <div class='column row'>
+                <h2>Heineken - Road to the Final</h2>
+                <p>Heineken proposed using Ongair for a marketing campaign to pick one lucky winner to watch the UEFA Champions League final. The campaign consisted of an Automated Bot that answered subscribers as well as a team of moderators in Kenya and Tanzania</p>
+                <p>During the trial for campaign we recieved 3000 incoming messages and 400 images from 100 contacts.</p>
+                <ul class='ui labeled large icon borderless fluid four item menu'>
+                  <li class='item'>
+                    <i class='white users icon'></i>
+                    <h4>3000</h4>
+                    <p>contacts added</p>
+                  </li>
+                  <li class='item'>
+                    <i class='white settings icon'></i>
+                    <h4>1500</h4>
+                    <p>API calls</p>
+                  </li>
+                  <li class='item'>
+                    <i class='white announcement icon'></i>
+                    <h4>7500</h4>
+                    <p>Outgoing</p>
+                  </li>
+                  <li class='item'>
+                    <i class='white comment outline icon'></i>
+                    <h4>12500</h4>
+                    <p>Shares</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class='ui center aligned grid'>
+            <div class='ui white inverted large button'>START TODAY FOR FREE</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class='icons grey column row'>
+      <h4 class='ui center aligned red header'>Powerful analysts to get your business going</h4>
+      <ul class='ui labeled huge icon borderless fluid five item menu'>
+        <li class='item'>
+          <i class='purple users icon'></i>
+          <h4 class='ui purple header'>3000</h4>
+          <p>contacts added</p>
+        </li>
+        <li class='item'>
+          <i class='purple settings icon'></i>
+          <h4 class='ui purple header'>1500</h4>
+          <p>API calls</p>
+        </li>
+        <li class='item'>
+          <i class='purple announcement icon'></i>
+          <h4 class='ui purple header'>7500</h4>
+          <p>Outgoing</p>
+        </li>
+        <li class='item'>
+          <i class='purple comment outline icon'></i>
+          <h4 class='ui purple header'>12500</h4>
+          <p>Shares</p>
+        </li>
+      </ul>
+    </section>
+    <section id='details1'>
+      <div class='details centered white column row'>
+        <h4 class='ui center aligned red header'>Why You need Ongair</h4>
+        <ul class='ui stackable center aligned four column grid' id='detail3'>
+          <li class='three wide column'>
+            <div class='ui list'>
+              <div class='item'>
+                <div class='ui column center aligned grid'>
+                  <div class='sixteen wide column'>
+                    <i class='blue dashboard huge icon'></i>
+                  </div>
+                  <div class='sixteen wide column'>
+                    <h5 class='content'>Help customers faster</h5>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p>With out-of-the-box support you can talk to and help customers faster and faster</p>
+                <a>
+                  Learn More
+                  <i class='caret right icon'></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class='three wide column'>
+            <div class='ui list'>
+              <div class='item'>
+                <div class='ui column center aligned grid'>
+                  <div class='sixteen wide column'>
+                    <i class='purple bar chart huge icon'></i>
+                  </div>
+                  <div class='sixteen wide column'>
+                    <h5 class='content'>Make better decisions</h5>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p>Bring all your data together and get the insights you need to make faster smarter decisions</p>
+                <a>
+                  Learn More
+                  <i class='caret right icon'></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class='three wide column'>
+            <div class='ui list'>
+              <div class='item'>
+                <div class='ui column center aligned grid'>
+                  <div class='sixteen wide column'>
+                    <i class='orange life ring huge icon'></i>
+                  </div>
+                  <div class='sixteen wide column'>
+                    <h5 class='content'>Help customers help themselves</h5>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p>Share your knowledge on a self-service so your customers can find their own answers</p>
+                <a>
+                  Learn More
+                  <i class='caret right icon'></i>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class='three wide column'>
+            <div class='ui list'>
+              <div class='item'>
+                <div class='ui column center aligned grid'>
+                  <div class='sixteen wide column'>
+                    <i class='green building outline huge icon'></i>
+                  </div>
+                  <div class='sixteen wide column'>
+                    <h5 class='content'>Scale as you grow.</h5>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p>Easily upgrade to Service Cloud when youneed more capabilities and customization.</p>
+                <a>
+                  Learn More
+                  <i class='caret right icon'></i>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id='prices'>
+      <section class='ui center aligned white grid' id='details2'>
+        <h4 class='ui center aligned red header'>Great pricing for teams of all sizes</h4>
+      </section>
+      <div class='column row'>
+        <ul class='ui stackable center aligned four column grid'>
+          <li class='column'>
+            <div class='ui segment three wide grey center aligned column'>
+              <h5 class='ui header'>Small Business</h5>
+              <div class='ui small statistic'>
+                <div class='value'>
+                  <sup>$</sup>
+                  22
+                  <sub>/mo</sub>
+                </div>
+              </div>
+              <p>Great for small businesses selling fast moving consumer goods etc</p>
+              <p>$35 month-to-month</p>
+              <div class='ui purple large button'>TRY IT FREE</div>
+            </div>
+            <div class='ui segment three wide center aligned column'>
+              <p>Case management</p>
+              <p>Multi-Channel support</p>
+              <p>Desk.com mobile app</p>
+              <p>Self-service support</p>
+            </div>
+          </li>
+          <li class='column mobile only'>
+            <div class='ui divider'></div>
+          </li>
+          <li class='column'>
+            <div class='ui segment three wide grey center aligned column'>
+              <h5 class='ui header'>Medium Enterprise</h5>
+              <div class='ui purple sixteen wide column'>MOST POPULAR</div>
+              <div class='ui small statistic'>
+                <div class='value'><sup>$</sup>250<sub>/mo</sub></div>
+              </div>
+              <p>Everything you need to take support to the next level</p>
+              <p>$70 month-to-month</p>
+              <div class='ui green large button'>TRY IT FREE</div>
+            </div>
+            <div class='ui segment three wide center aligned column'>
+              <p class='ui header'>All Small biz features plus</p>
+              <p>Ongair for Zendesk plugin</p>
+              <p>API access with 2000 calls</p>
+              <p>Advanced analytics and reporting</p>
+              <p>10GB media storage</p>
+              <p>10 user accounts</p>
+            </div>
+          </li>
+          <li class='column mobile only'>
+            <div class='ui divider'></div>
+          </li>
+          <li class='column'>
+            <div class='ui segment three wide grey center aligned column'>
+              <h5 class='ui header'>Large Business</h5>
+              <div class='ui small statistic'>
+                <div class='value'><sup>$</sup>750<sub>/mo</sub></div>
+              </div>
+              <p>Advanced capabilities to quickly scale your business</p>
+              <p>$110 month-to-month</p>
+              <div class='ui purple large button'>TRY IT FREE</div>
+            </div>
+            <div class='ui segment three wide center aligned column'>
+              <p class='ui header'>All Medium Features Plus</p>
+              <p>Ongair for Zendesk plugin</p>
+              <p>API access with 2000 calls</p>
+              <p>Advanced analytics and reporting</p>
+              <p>10GB media storage</p>
+              <p>10 user accounts</p>
+            </div>
+          </li>
+          <li class='column mobile only'>
+            <div class='ui divider'></div>
+          </li>
+          <li class='column'>
+            <div class='ui segment three wide grey center aligned column'>
+              <h5 class='ui header'>Custom Build</h5>
+              <div class='ui small statistic'>
+                <div class='value'><sup>$</sup>1000+<sub>/mo</sub></div>
+              </div>
+              <p>Deep customization for comprehensive support</p>
+              <p>Annual only</p>
+              <div class='ui purple large button'>TRY IT FREE</div>
+            </div>
+            <div class='ui segment three wide center aligned column'>
+              <p class='ui header'>All Large features plus</p>
+              <p>Ongair for Zendesk plugin</p>
+              <p>API access with 2000 calls</p>
+              <p>Advanced analytics and reporting</p>
+              <p>10GB media storage</p>
+              <p>10 user accounts</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class='ui center aligned white grid'>
+      <h4 class='center aligned column'>What People have said about us</h4>
+    </section>
+    <section id='brands'>
+      <ul class='brands ui stackable five column page grid'>
+        <li class='column'>
+          <img class='ui small centered image' src='images/bbc.png'>
+        </li>
+        <li class='column'>
+          <img class='ui small centered image' src='images/wired.png'>
+        </li>
+        <li class='column'>
+          <img class='ui small centered image' src='images/venturebeat.png'>
+        </li>
+        <li class='column'>
+          <img class='ui small centered image' src='images/pcadvisor.png'>
+        </li>
+        <li class='column'>
+          <img class='ui small centered image' src='images/nairobi_garage.png'>
+        </li>
+      </ul>
+    </section>
+    <footer>
+      <div class='ui page grid'>
+        <nav class='left ui horizontal list'>
+          <h3 class='item'>sprout</h3>
+          <a class='item'>About Us</a>
+          <a class='item'>Contact Us</a>
+          <a class='item'>Blog</a>
+        </nav>
+        <nav class='right ui horizontal list'>
+          <a class='item'>Terms and conditions</a>
+          <a class='item'>Privacy Policy</a>
+          <div class='item'>
+            <a href='https://www.facebook.com/letsOngair' target='_blank'>
+              <i class='circular facebook link icon'></i>
+            </a>
+            <a href='http://twitter.com/ongair_' target='_blank'>
+              <i class='circular inverted twitter link icon'></i>
+            </a>
+            <a href='http://www.youtube.com/channel/UCqjdKgBO3pToXYmTS3HuBgQ/feed' target='_blank'>
+              <i class='circular inverted youtube play link icon'></i>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
