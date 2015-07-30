@@ -46,6 +46,7 @@ $white:#ffffff;
 $grey:#c8c8c8;
 $hoverpink:#FF5E73;
 $purple: #713388;
+$purple-light: #713388;
 
 
 img::selection {
@@ -82,12 +83,13 @@ a:active { text-decoration: none; }
 /* Import Layout */
 /* ==================================================== */
 
-@import 'layout';
-
+@import '_layout';
+@import '_colors';
+@import '_home_page';
 
 /* Import Media Queries */
 /* ==================================================== */
 
-@import 'media-queries';
+@import '_media-queries';
 
 

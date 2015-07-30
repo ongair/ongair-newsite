@@ -1,0 +1,117 @@
+// Dont need this any more
+// $brand-blue: #2F3588;
+// $brand-pink: #BD0046;
+
+
+i.blue.icon,
+.ui.blue.header {
+  color: $purple-dark !important;
+}
+
+.ui.blue.dividing.header {
+  border-bottom: 3px solid $purple-dark;
+}
+
+// Blue dots showing open conversations
+.ui.blue.labels .label, .ui.blue.label,
+.ui.labels .blue.label::before, 
+.ui.blue.labels .label::before, 
+.ui.blue.label::before {
+  background-color: $purple-dark !important;
+  border-color: $purple-dark !important;
+}
+
+// Height of avatars
+.ui.avatar.images .image, .ui.avatar.images img, .ui.avatar.image img, .ui.avatar.image {
+  height: 2em;
+  width: 2em;
+}
+
+.ui.blue.segment {
+  border-top: 0.2em solid $purple-dark;
+}
+
+// Internal buttons make them similar to new semantic
+.application {
+  .ui.button {
+    transition-duration: 0.55s;
+    background-color: $orange-dark;
+    color: #ffffff;
+    border-radius: 0.2857rem;
+
+    &:hover{
+      background-color: $purple-dark;
+    }
+  }
+
+  .ui.menu .item {
+    font-size: 0.95rem;
+  }
+
+  h4.ui.blue.header {
+    padding: 1rem 0em !important;
+
+    i.circular.icon {
+      width: 2.25em !important;
+      height: 2.25em !important;
+    }
+  }
+
+  .ui.disabled.step.active {
+    color: #ffffff;
+  }
+
+  .ui.inverted.header,
+  .ui.blue.message {
+    background-color: $purple-dark;
+    color: #ffffff;
+  }
+
+  .field.compact {
+    margin-bottom: 0em;
+  }  
+}
+
+.application.distribution_lists.show {  
+  td {
+    .registration_status {
+      i.icon {
+        font-size: .7em;
+      }
+    }
+  }
+}
+
+.segment.borderless {
+  box-shadow: none;
+
+  &.form {
+    .ui.input input {
+      border-radius: 0;
+    }
+  }
+}
+
+.ui.warning.checkbox .box::before, 
+.ui.warning.checkbox label::before {
+  box-shadow: 0em 0em 0em 1px #F1D7D7;  
+}
+
+.ui.warning.checkbox {
+  margin: 0.75rem auto;
+  
+  label {
+    color: #A95252;
+  }
+  
+}
+
+// media player
+.mejs-container.svg.player.mejs-audio {
+  width: 100% !important;
+  background: $purple-dark;
+
+  .mejs-controls .mejs-time-rail .mejs-time-loaded {
+    background: $purple-light;
+  }
+}

@@ -1,0 +1,80 @@
+.custom.cl-default .logo {
+  background-color: #fff; }
+  .custom.cl-default .logo img {
+    width: 50%; }
+.custom.cl-default #owl-demo .item img {
+  max-height: 240px; }
+.custom.cl-default .dropdown-menu.dropdown-select input[type="radio"] {
+  margin-right: 7px; }
+.custom.cl-default .flot-pie-donut {
+  height: 240px; }
+.custom.cl-default td.empty {
+  text-align: center; }
+.custom.cl-default .the-box {
+  cursor: pointer; }
+.custom.cl-default .dropdown-menu > li > a:hover {
+  background-color: #7a418f; }
+.custom.cl-default .navbar .nav > li > a:hover, .custom.cl-default .navbar .nav > li > a:active, .custom.cl-default .navbar .nav > li > a:focus, .custom.cl-default .navbar .nav .open > a, .custom.cl-default .navbar .nav .open > a:hover, .custom.cl-default .navbar .nav .open > a:focus {
+  color: #ac4a85; }
+.custom.cl-default .legendLabel {
+  padding-left: 5px;
+  color: #999999; }
+.custom.cl-default .bottom-stats {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+  .custom.cl-default .bottom-stats .title, .custom.cl-default .bottom-stats .percentage {
+    font-weight: bold; }
+  .custom.cl-default .bottom-stats .percentage {
+    color: #2ecc71;
+    display: block; }
+  .custom.cl-default .bottom-stats .percentage.down {
+    color: #e74c3c; }
+.custom.cl-default .breadcrumb .btn {
+  padding: 2px 12px; }
+.custom.cl-default .box.heatmap {
+  padding: 20px 16px; }
+.custom.cl-default .q1 {
+  background-color: #fea1eb;
+  opacity: 0.1;
+  fill: #fea1eb; }
+.custom.cl-default .q2 {
+  background-color: #fea1eb;
+  opacity: 0.2;
+  fill: #fea1eb; }
+.custom.cl-default .q3 {
+  background-color: #fea1eb;
+  opacity: 0.4;
+  fill: #fea1eb; }
+.custom.cl-default .q4 {
+  background-color: #637939;
+  opacity: 0.6;
+  fill: #fea1eb; }
+.custom.cl-default .q5 {
+  background-color: #3b6427;
+  opacity: 0.8;
+  fill: #fea1eb; }
+.custom.cl-default .q6 {
+  background-color: #3b6427;
+  opacity: 1;
+  fill: #fea1eb; }
+.custom.cl-default .navbar-nav > li > .dropdown-menu {
+  border: 4px solid #ac4a85; }
+@media screen and (max-width: 560px) {
+  .custom.cl-default .logo img {
+    width: 30%; } }
+
+.support.accounts table tr.active td {
+  background-color: rgba(46, 204, 113, 0.3); }
+.support.accounts table tr.dormant td {
+  background-color: #E5E9EC; }
+
+.support.account_activation textarea {
+  width: 100%; }
+
+.reports.locations {
+  height: 100%; }
+  .reports.locations #map {
+    height: 100%;
+    height: 500px; }
+
+/*# sourceMappingURL=reports.custom.css.css.map */

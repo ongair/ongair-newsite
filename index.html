@@ -15,57 +15,117 @@
     <script src='dist/semantic.js'></script>
     <link href='css/main.css' rel='stylesheet' type='text/css'>
     <script src='js/main.js'></script>
+    <script src="js/typed.js"></script>
+<script>
+  $(function(){
+      $(".hero-text strong").typed({
+        strings: ["Wechat", "Whatsapp^1500"]
+      });
+  });
+</script>
   </head>
   <body>
+<!---->
+  <div class="ui large inverted right vertical sidebar menu">
+  <a class="item ui green large button">
+      GET STARTED
+    </a>
+    <a class="active item">
+      HOME
+    </a>
+    <a class="item">
+      EXAMPLES
+    </a>
+    <a class="item">
+      FEATURES
+    </a>
+    <div class="item">
+      <b>WECHAT</b>
+      <div class="menu">
+        <a class="item">
+          Examples
+        </a>
+        <a class="item">
+          Pricing 
+        </a>
+      </div>
+    </div>
+    <div class="item">
+       <a class="item">WHATSAPP</a>
+      <div class="menu">
+        <a class="item">
+          Examples
+        </a>
+        <a class="item">
+          Pricing 
+        </a>
+      </div>
+    </div>
+    <br>
+    <a class="item">
+      Blog
+    </a>
+
+    <a class="item">
+      Terms of Service
+    </a>
+    <a class="item">
+      Privacy policy
+    </a>
+  </div>
+  <!---->
     <section class='topbar'>
       Celebrating 200 Happy Customers&nbsp;
       <div class='ui pointing left label'>Blog</div>
     </section>
-    <header class='ui sticky navbar'>
-      <div class='content'>
-        <img src='images/logo.png'>
-        <nav class='ui horizontal relaxed list grid computer only tablet only'>
-          <a class='item' href='#features'>Features</a>
-          <a class='item' href='#clients'>Clients</a>
-          <a class='item' href='#prices'>Pricing</a>
-          <div class='item'>
-            <button class='ui green button'>SIGN UP</button>
-          </div>
-        </nav>
-        <nav class='ui mobile_menu grid mobile only'>
-          <button class='ui green button'>SIGN UP</button>
-        </nav>
+<header class="ui sticky navbar" style="width: 1425px; height: 78px;">
+<div class="content">
+<a href="/">
+<div class="logo"></div>
+</a><nav class="ui horizontal relaxed list grid computer only tablet only computer_menu"><a href="/">
+</a><a class="item ui green large button" href="/users/sign_up" id="signup-btn">Sign Up</a>
+<a class="item" href="/users/sign_in">Log In</a>
+<a class="item" href="/#clients">Examples</a>
+
+<div class="ui right floated launch icon button">
+        <i class="sidebar icon"></i>
+        Menu
       </div>
-    </header>
-    <section class='ui grid mobile only'>
-      <div class='column'>
-        <div class='ui three item menu'>
-          <a class='item' href='#features'>Features</a>
-          <a class='item' href='#clients'>Clients</a>
-          <a class='item' href='#prices'>Pricing</a>
-        </div>
-      </div>
-    </section>
+</nav>
+
+
+<nav class="ui horizontal relaxed right floated list grid mobile only mobile_menu">
+<a class="item ui green large button launch icon" id="signup-btn">MENU <i class="sidebar icon"></i></a>
+</nav>
+
+</div>
+</header>
+    
+
     <section class='column row' id='banner'>
-      <div class='ui stackable page left aligned grid'>
-        <div class='eight wide column'>
-          <div class='column row'>
-            <h2>Your Customers are chating on Mobile</h2>
-            <h3 class='ui purple header'>Talk To Them</h3>
-          </div>
-          <div class='column row'>
-            <ul class='ui bulleted list'>
-              <p class='item'>Talk to your customers one on one</p>
-              <p class='item'>Private conversations and groups</p>
-              <p class='item'>Send them images, video and audio</p>
-            </ul>
-          </div>
-          <div class='column row'>
-            <div class='ui green large button'>START TODAY FOR FREE</div>
-            <p class='column row'>* 14 day free trial - No credit card required</p>
-          </div>
-        </div>
-      </div>
+      <div class="ui stackable page left aligned grid banner-text">
+<div class="fourteen wide column">
+<div class="column row">
+<h1 class="hero-text">
+Start Customer Service
+<br>
+on
+<strong></strong>today.
+</h1>
+</div>
+<div class="column row">
+<ul class="ui bulleted list by-line">
+<p class="item">It's 7x faster and more personal.</p>
+<p class="item">Integrates with Zendesk® and other tools</p>
+<p class="item">Introducing WeChat official on Ongair.</p>
+</ul>
+</div>
+<div class="column row">
+<a class="ui green large button" href="/users/sign_up" id="big-signup">SIGN UP TODAY FOR FREE</a>
+<p class="column row">* 14 day free trial - No credit card required</p>
+</div>
+</div>
+</div>
     </section>
     <div class='ui center aligned grey grid' id='features'>
       <h4 class='column'>Features to make you more productive</h4>

@@ -1,0 +1,22 @@
+/*
+ * This manifest file pulls most of the css from vendor/assets
+ *
+ *= require_self
+ *= require bootstrap.min
+ *= require font-awesome
+ *= require bootstrap-reset
+ *= require arjuna
+ *= require jquery.datetimepicker
+ *= require reports.custom
+ *= require owl.carousel
+ *= require owl.theme
+ *= require owl.transitions
+ *= require xcharts
+ *= require cal-heatmap.css
+ *= require chosen
+ *= require morris
+ *= require formValidation
+ *= require support
+ */
+
+/*# sourceMappingURL=reports.css.css.map */

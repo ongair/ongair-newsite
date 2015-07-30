@@ -1,0 +1,19 @@
+.application.groups .ui.items > .row > .item, .application.groups .ui.items > .item {
+  min-height: 150px; }
+.application.groups .members {
+  clear: left; }
+  .application.groups .members .group.avatar {
+    max-width: none;
+    border-radius: 300em;
+    margin: auto; }
+  .application.groups .members .item:hover {
+    border: none;
+    box-shadow: none; }
+.application.groups .group_info .icon {
+  display: inline-block; }
+.application.groups .group_info span.divider {
+  margin: auto 0.5rem; }
+.application.groups .modal .ui.header .content {
+  display: block; }
+
+/*# sourceMappingURL=groups.css.css.map */

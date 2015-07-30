@@ -1,0 +1,416 @@
+@media only screen {
+ .accordion_to_tab, .accordion_to_step{
+  display: none;
+ }
+
+}//max width 1500
+
+@media only screen and (max-width: 1280px){
+    
+
+}//Max width 1280
+
+
+@media only screen and (max-width: 1100px){
+   .navbar{
+ .content{
+    nav.computer_menu{
+      .item{
+        padding-left: 0.5vw !important;
+        padding-right: 0.5vw !important;
+      }
+      .ui.button{
+        color: $white !important;
+        //margin: 4px 0px !important;
+      }
+    }
+  }
+}
+
+#clients .clientbox_info {
+    .casestudy{
+      .field{
+      width: 75% !important
+      }
+    }
+  }
+ 
+}//Max width 1100
+
+
+@media only screen and (max-width: 991px){
+  .home-banner {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-down: 8%;
+  }
+
+  .clientbox_info {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
+
+
+  #products{
+    #analytics{
+      position: relative;
+
+      #one,#two,#three,#four{
+        display: none;
+      }
+    }
+  }
+
+  // footer{
+  //   padding-top: 0.5rem;
+  //   padding-bottom: 0.5rem;
+  //   padding-right: 6vw;
+  //   padding-left: 6vw;
+
+  //   .left.ui.list{
+  //     padding: 2.25rem 0.5rem !important;
+  //     display: inline-block !important;
+  //     .item{
+  //       display: list-item !important;
+  //       margin-left: 0 !important; 
+  //     }
+  //     h3.item{
+  //       padding-top: 0rem !important;
+  //     }
+  //   }
+   
+  //   .right.ui.list{
+  //     padding: 4.8rem 0.5rem 0 !important;
+  //     text-align: right;
+  //     .item{
+  //       display: list-item !important;
+  //       padding-top: 0.3em !important;
+  //     }
+  //   }
+  // }
+
+   footer{
+    text-align: center;
+    padding-bottom: 1rem;
+    .left.ui.list{
+      display: inline-block !important;
+      width: 100%;
+      .item:not(h3){
+        display: none !important;
+      }
+      h3.item{
+        padding-top: 0rem !important;
+        padding-right: 0 !important;
+      }
+    }
+   
+    .right.ui.list{
+      width: 100%;
+      padding: 0 !important;
+      text-align: center;
+      float: none;
+      .item{
+        display: list-item !important;
+        margin-left: 0;
+        padding: 0.5rem 0.3rem !important;
+       // padding-top: 0.3em !important;
+      }
+      .stack{
+        //width: 10%;
+        display: inline-block !important;
+      }
+    }
+  }
+
+}//max width 960
+
+@media only screen and (max-width: 768px){
+
+  .navbar{
+    .ui.list{
+          float: right;
+      }
+  }
+  .steps_to_accordion{
+    display: none !important;
+  }
+  .accordion_to_step{
+    display: block;
+    text-align: center;
+  }
+
+  #why{
+    ul{
+      li{
+        width: 70% !important;
+        text-align: center !important;
+        margin: 1.875rem auto !important;
+        box-shadow: 0 0 0 0.063rem rgba(39, 41, 43, 0.15), 0 0.063rem 0.125rem 0 rgba(0, 0, 0, 0.05) !important;
+        border-radius: 0.2857rem;
+        padding: 1em 1em !important;
+
+        .column{
+          text-align: center;
+        }
+      }
+    }
+  }
+
+
+  #features-list .feature { //applys to all features tabs
+    .feature_text{
+      .column{
+      text-align: center !important;
+      padding: 1.2rem 1.2rem !important;
+      }
+      h3{
+        padding-top: 0;
+      }
+    }
+  }
+  
+
+
+  .brands li{
+    img{
+      margin-top: 1rem !important;
+      margin-bottom: 1rem !important;
+    }
+  }
+
+
+  #signup{
+    .signup-form{
+      padding: 1em 3em !important;
+    }
+  }
+
+#clients .clientbox_info {
+    .casestudy{
+      .field{
+      width: 75% !important
+      }
+    }
+  }
+
+}//max width 768
+@media only screen and (max-width: 600px){
+  .tab_to_accordion {
+      display: none !important;
+    }
+    .accordion_to_tab{
+      display: block;
+      text-align: center;
+  }
+  
+  // footer{
+  //   text-align: center;
+  //   padding-bottom: 1rem;
+  //   .left.ui.list{
+  //     display: inline-block !important;
+  //     width: 100%;
+  //     .item:not(h3){
+  //       display: none !important;
+  //     }
+  //     h3.item{
+  //       padding-top: 0rem !important;
+  //       padding-right: 0 !important;
+  //     }
+  //   }
+   
+  //   .right.ui.list{
+  //     width: 100%;
+  //     padding: 0 !important;
+  //     text-align: center;
+  //     float: none;
+  //     .item{
+  //       display: list-item !important;
+  //       margin-left: 0;
+  //       padding-top: 1rem !important;
+  //      // padding-top: 0.3em !important;
+  //     }
+  //     .stack{
+  //       width: 26%;
+  //       display: inline-block !important;
+  //     }
+  //   }
+  // }
+}//max width 600
+
+
+@media only screen and (max-width: 500px){
+  .clientbox{
+   .checkbox_icon {
+      width: 50%;
+      }
+  }
+
+  #terms, #privacy{
+    h3{
+      font-size: 2rem !important
+    }
+   
+ }
+
+  .home-banner{
+    min-height: 55vh
+  }
+
+  .feature_header, .message1, #prices #details2, #brands{
+    h3{
+      font-size: 1.5rem !important
+    }
+  }
+
+//moved up from 400
+
+  .navbar{
+    .content{
+     max-width: 100%;
+     .logo{
+      //width: 100px;
+      height: 46px;
+     }
+     .mobile_menu{
+      padding-right: 1rem;
+     }
+    }
+  }
+  .navbar.fixed.top{
+    .mobile_menu{
+      padding: 0;
+    }
+  }
+
+  .home-banner{
+    .banner-text{
+      .hero-text{ padding-top: 4rem;}
+      padding-top: 0 !important;
+      #big-signup{
+        font-size: 1rem;
+      }
+    }
+    .column.row{
+      text-align: center;
+      h1.hero-text{
+        font-size: 2.5rem !important;
+      }
+    }
+  }
+
+  #hero{
+    .banner-text{
+      .column.row{
+        text-align: center !important;
+      }
+    }
+  }
+
+  #products{
+    max-height: none;
+  }
+#clients .clientbox_info {
+  margin-top: 2em;
+  text-align: center;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  .casestudy{
+    .field{
+      width: 100% !important
+    }
+  }
+
+  
+}
+  
+
+  section.icons.grey.column.row{
+    .item{
+      width: 50%;
+    }
+  }
+
+}//max width 500
+
+
+@media only screen and (max-width: 400px){
+
+//Moved breakpoint up to 500
+
+  
+}//max 400px
+
+@media only screen and (max-width: 330px){
+  
+}//max 330px
+
+
+/* Print Styles */
+/* ==================================================== */
+ 
+@media print {
+
+  * {
+    background: transparent !important; 
+    color: black !important; 
+    text-shadow: none !important; 
+    filter:none !important; 
+    -ms-filter: none !important; 
+  } 
+  
+  a, 
+  a:visited { 
+    text-decoration: underline; 
+  }
+  
+  a[href]:after { 
+    content: " (" attr(href) ")"; 
+  }
+  
+  abbr[title]:after { 
+    content: " (" attr(title) ")"; 
+  }
+  
+  .ir a:after, 
+  a[href^="javascript:"]:after, 
+  a[href^="#"]:after { 
+    content: ""; 
+  } 
+  
+  pre, 
+  blockquote { 
+    border: 1px solid #999; 
+    page-break-inside: avoid; 
+  }
+  
+  thead { 
+    display: table-header-group; 
+  }
+  
+  tr, 
+  img { 
+    page-break-inside: avoid; 
+  }
+  
+  img { 
+    max-width: 100% !important; 
+  }
+  
+  @page { 
+    margin: 0.5cm; 
+  }
+  
+  p, 
+  h2, 
+  h3 { 
+    orphans: 3; 
+    widows: 3; 
+  }
+  
+  h2, 
+  h3 { 
+    page-break-after: avoid; 
+  }
+  
+}

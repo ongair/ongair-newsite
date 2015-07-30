@@ -1,0 +1,26 @@
+.messages.media .audio.item {
+  min-height: 50px;
+  width: 475px; }
+.messages.media .video.item {
+  width: 660px; }
+.messages.media .image.item img {
+  width: 300px;
+  height: 200px; }
+.messages.media .item .content .avatar img {
+  width: 3em;
+  height: 3em;
+  border-radius: 500px; }
+.messages.media .item .content .metadata {
+  display: inline-block;
+  float: right;
+  color: rgba(0, 0, 0, 0.4); }
+
+.assets ul.ui.items.audio .item {
+  min-height: 50px;
+  width: 500px; }
+  .assets ul.ui.items.audio .item .content {
+    padding: 0px; }
+.assets .ui.items .item > .image {
+  background-color: transparent; }
+
+/*# sourceMappingURL=assets.css.css.map */

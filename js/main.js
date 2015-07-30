@@ -5,6 +5,10 @@ $(document)
   	.tab()
   ;
 
+  $('.ui.sidebar')
+      .sidebar('attach events', '.launch.button')
+    ;
+    
 	$('.ui.sticky')
 	  .sticky({
 	    context: 'body',

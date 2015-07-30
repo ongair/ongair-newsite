@@ -1,0 +1,17 @@
+.distribution_lists .broadcasts .bar {
+  color: #ffffff;
+  text-align: center; }
+.distribution_lists .ui.modal .left:not(.ui) {
+  display: inline-block;
+  padding-right: 1.5%;
+  width: 50%; }
+.distribution_lists .ui.modal .right:not(.ui) {
+  display: inline-block;
+  padding-left: 1.5%;
+  vertical-align: top; }
+.distribution_lists .broadcast.modal .header .content {
+  display: block; }
+.distribution_lists .broadcast.modal .broadcast_text_message .field {
+  margin-top: 1em; }
+
+/*# sourceMappingURL=broadcasts.css.css.map */

@@ -1,0 +1,36 @@
+.application.groups {
+	.ui.items > .row > .item, .ui.items > .item {
+		min-height: 150px;	
+	}
+
+	.members {
+		clear: left;
+
+		.group.avatar {
+			max-width: none;
+			border-radius: 300em;
+			margin: auto;
+		}
+
+		.item:hover {
+			border: none;
+			box-shadow: none;
+		}
+	}	
+
+	.group_info {
+		.icon {
+			display: inline-block;
+		}	
+
+		span.divider {
+			margin: auto 0.5rem;
+		}
+	}
+
+	.modal {
+		.ui.header .content	{
+			display: block;
+		}
+	}
+}

@@ -1,0 +1,135 @@
+.label.new.alert {
+	padding: 0.1rem 0.3rem;
+
+	.mail.icon.count {
+		color: #ffffff;
+		font-size: 0.7125rem;
+	}
+}
+
+.hidden {
+	display: none;
+}
+
+.ui.segment.loading:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 100%;	
+	background: rgba(255,255,255,.8) asset-url("loader-large.gif") no-repeat 50% 50%;
+	visibility: visible;
+}
+
+.comments.scrollable {
+	height: 350px;
+	overflow-y: scroll;
+}
+
+.modal {
+	.ui.header .content {
+		// display: block;
+	}
+}
+
+
+.ui.comments .reply.form textarea {
+  height: 2em; 
+}
+
+.comments {
+	.comment {
+		.tel {
+			display: inline-block;
+		}
+		.metadata {
+			.received {
+				background: asset-url("received.png") no-repeat;
+				height: 12px;
+				width: 15px;
+				float: left;
+			}
+
+			.read {
+				background: asset-url("read.png") no-repeat;
+				height: 12px;
+				width: 15px;
+				float: left;	
+			}
+		}
+
+		&.event {
+			.ui.label {
+				text-transform: none;
+			}
+		}
+	}
+}
+
+.send_image,
+.broadcast_message {
+	.caption {
+		position: relative;
+		bottom: -260px; 
+	}
+
+	.dz-preview.dz-image-preview {
+		margin-top: -20px;
+		margin-left: 0px;
+	}
+}
+
+.broadcast_message .caption {
+	bottom: -240px;
+}
+
+.popup {
+	.caption {
+		display: block;
+	}
+}
+
+.segment.conversation {
+	a.item.reopen {
+		display: none;
+	}
+
+	.ribbon {
+		display: none;
+	}
+}
+
+.home.search {
+	#mailbox {
+		.sixteen.wide.column {
+			margin-bottom: 0px;
+		}
+	}
+}
+
+.inbox.list, .conversation.tool {
+	font-size: .9rem;
+
+	.ui.menu .item {
+		font-size: .9rem;
+	}
+}
+
+.segment.conversation.closed {
+	a.item.close {
+		display: none;
+	}
+
+	a.item.reopen {
+		display: inline-block;
+	}
+
+	form {
+		display: none;
+	}
+
+	.ribbon {
+		display: inline-block;
+	}
+}

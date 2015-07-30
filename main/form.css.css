@@ -1,0 +1,15 @@
+.users.edit .subscribed .ui.checkbox {
+  margin-top: 2rem; }
+
+.sessions .field .author {
+  font-size: .8em;
+  float: right;
+  text-decoration: none; }
+
+.account_integrations .help {
+  margin-top: 4em; }
+  .account_integrations .help p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.95em; }
+
+/*# sourceMappingURL=form.css.css.map */

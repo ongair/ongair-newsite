@@ -1,0 +1,50 @@
+.contacts.index {
+	.paging {
+		display: inline-block;
+	}
+
+	.ui.dropdown > .text {
+		text-transform: none;
+	}
+
+	table {
+		font-size: .9rem;
+	}
+
+	.ui.pagination.menu .item {
+		min-width: 2em;
+	}
+
+	
+	.modal .ui.header .content,
+	.modal .ui.header .icon {
+		display: inline-block;
+	}
+
+	.modal#list_modal .field {
+		text-align: center;
+	}	
+
+	th.num-selected {
+		text-align: right;
+	}
+}
+
+.contacts.upload_page {
+	.tips {
+		margin-top: 2rem;
+	}
+}
+
+.contacts.show {
+	.ui.pagination.menu .item {
+		float: left;
+	}
+}
+
+.submenu:before {
+    position:absolute;
+    right:0px;
+    content: "";
+    padding-right:10px;
+}

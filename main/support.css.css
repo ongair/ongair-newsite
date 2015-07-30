@@ -1,0 +1,16 @@
+.progress-bar.animate {
+  width: 100%; }
+
+.fv-form-bootstrap .help-block {
+  margin-bottom: 1em; }
+
+#result h4 {
+  display: none; }
+#result.errors {
+  margin-top: 1em; }
+  #result.errors li {
+    color: red; }
+  #result.errors h4 {
+    display: block; }
+
+/*# sourceMappingURL=support.css.css.map */

@@ -1,0 +1,20 @@
+/*
+ * This manifest file pulls most of the css from vendor/assets
+ *
+ *= require_self
+ *= require bootstrap.min
+ *= require font-awesome
+ *= require bootstrap-reset
+ *= require arjuna
+ *= require reports.custom
+ *= require jquery.datetimepicker
+ */
+label {
+  margin-top: 1em; }
+  label .instructions {
+    font-weight: normal;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 0.9; }
+
+/*# sourceMappingURL=bulk.css.css.map */

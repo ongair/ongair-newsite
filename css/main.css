@@ -48,7 +48,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: transparent; }
 
 img, a img {
@@ -143,16 +143,16 @@ p {
   text-align: center;
   display: block;
   padding: 1rem 0;
-  color: white;
+  color: #ffffff;
   font-size: 16px;
   margin: 0; }
   .topbar .label {
     vertical-align: middle; }
   .topbar a {
-    color: white; }
+    color: #ffffff; }
 
 .ui.sticky.navbar {
-  background-color: white;
+  background-color: #ffffff;
   height: 85px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.35);
   -webkit-transition: all 500ms ease;
@@ -175,7 +175,7 @@ p {
       display: inline-block;
       -webkit-transition: all 500ms ease; }
     .ui.sticky.navbar .content .ui.button {
-      color: white !important; }
+      color: #ffffff; }
     .ui.sticky.navbar .content .ui.list, .ui.sticky.navbar .content .mobile_menu {
       float: right;
       margin: auto 0 !important;
@@ -225,8 +225,7 @@ p {
   background-position: center;
   background-size: cover;
   transform: none;
-  min-height: calc(100vh - 139px);
-  padding: 15vh 0; }
+  min-height: 70vh; }
 
 .tabs {
   min-height: 20.000rem; }
@@ -325,7 +324,7 @@ p {
   transform: none;
   min-height: 40.5rem; }
   #clients .clientbox h2, #clients .clientbox h4, #clients .clientbox p {
-    color: white; }
+    color: #ffffff; }
   #clients .clientbox h4 {
     padding: 0 !important; }
 #clients .heineken {
@@ -369,7 +368,7 @@ p {
     #prices ul li .grey.center.aligned.column .pink.button {
       background-color: #fa4860; }
     #prices ul li .grey.center.aligned.column .pink.button:hover {
-      background-color: #ff5e73; }
+      background-color: #FF5E73; }
     #prices ul li .grey.center.aligned.column .ui.purple.sixteen.wide.column {
       padding: 2% 0;
       margin: 4% -7%;
@@ -402,13 +401,13 @@ p {
 footer {
   min-height: 5rem;
   padding: 1.125rem 0;
-  background-color: #333333; }
+  background-color: #2f2a2e; }
   footer .ui.list {
     padding: 0.9rem 0 !important; }
     footer .ui.list .item {
       margin: 0;
       vertical-align: middle !important;
-      color: white; }
+      color: #ffffff; }
     footer .ui.list h3 {
       font-size: 1.875rem !important;
       padding-right: 1.25rem !important; }
@@ -417,7 +416,7 @@ footer {
       color: rgba(255, 255, 255, 0.4) !important;
       padding: 0 0.5rem !important; }
     footer .ui.list a:hover {
-      color: white !important; }
+      color: #ffffff !important; }
   footer .right.ui.list {
     float: right;
     padding: 1.5rem 0 !important; }
@@ -427,6 +426,429 @@ footer {
     footer .right.ui.list i {
       background-color: #CCCCCC !important;
       color: #333333 !important; }
+
+/*--------- ADDED 30/07/15
+-----------*/
+.ui.launch.icon.button {
+  background: #fff;
+  border: 1px solid #333;
+  color: #333 !important; }
+
+.ui.large.inverted.right.vertical.sidebar.menu .active {
+  background: none; }
+.ui.large.inverted.right.vertical.sidebar.menu a {
+  color: rgba(255, 255, 255, 0.5); }
+  .ui.large.inverted.right.vertical.sidebar.menu a:hover {
+    color: white;
+    background: none; }
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+html {
+  overflow-x: hidden; }
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: initial; }
+
+.topbar {
+  padding-top: 1.875rem;
+  background-color: #293c43 !important;
+  text-align: center;
+  display: block;
+  padding: 1rem 0;
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0; }
+  .topbar .label {
+    vertical-align: middle;
+    cursor: pointer; }
+    .topbar .label:hover {
+      color: #a4317a; }
+  .topbar a {
+    color: #fff; }
+
+nav > a.item:not(#signup-btn) {
+  transition-duration: 0.55s; }
+  nav > a.item:not(#signup-btn):hover {
+    color: #a4317a;
+    text-decoration: underline; }
+
+#signup-btn {
+  color: #fff;
+  width: 106px;
+  padding: 10px 0px;
+  transition-duration: 0.55s;
+  background-color: #f94263; }
+  #signup-btn:hover {
+    background-color: #6f3159; }
+
+.navbar {
+  background-color: #fff;
+  height: 78px !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.35);
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  transition: all 500ms ease; }
+  .navbar .content {
+    max-width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 0; }
+    .navbar .content .logo {
+      background: asset-url("logo.png");
+      width: 150px;
+      height: 54px;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: inline-block;
+      transition: width 300ms ease-in-out; }
+    .navbar .content nav .ui.button {
+      color: #fff;
+      margin: 8px 0px; }
+    .navbar .content .ui.list, .navbar .content .mobile_menu {
+      float: right;
+      margin: auto 0 !important;
+      text-align: center; }
+
+.navbar.fixed.top {
+  background-color: #fefefe;
+  height: 50px !important;
+  padding: 0 0.625rem;
+  box-shadow: 0 0.063rem 0.188rem 0 rgba(0, 0, 0, 0.5); }
+  .navbar.fixed.top .content {
+    padding: 0.2rem 0; }
+    .navbar.fixed.top .content .logo {
+      background: asset-url("o.png");
+      background-size: contain;
+      height: 35px;
+      width: 35px;
+      background-repeat: no-repeat;
+      display: inline-block;
+      margin-top: 5px;
+      transition: all 300ms ease-in-out; }
+    .navbar.fixed.top .content nav .ui.button {
+      margin: 4px 0px; }
+
+.mobile_menu {
+  padding-bottom: 0 !important; }
+  .mobile_menu .ui.item.menu {
+    border-radius: 0; }
+
+.ui.styled.accordion {
+  width: inherit; }
+
+.ui.styled.accordion > .title {
+  font-family: "Open Sans";
+  font-weight: 100;
+  font-size: 1.1rem;
+  line-height: 1.5rem; }
+
+.tabs {
+  min-height: 20.000rem; }
+
+.ui.icon.menu {
+  margin: 0 !important;
+  background-color: inherit;
+  box-shadow: none !important; }
+  .ui.icon.menu span {
+    font-size: 0.85rem; }
+  .ui.icon.menu .item {
+    padding: 1.250rem 0; }
+
+.icons.grey.column.row {
+  margin: 1.563rem; }
+  .icons.grey.column.row .ui.labeled.icon.menu > .item > .icon {
+    font-size: 2.500rem !important; }
+  .icons.grey.column.row li h4 {
+    padding: 0 !important; }
+
+footer {
+  padding: 1rem 5rem;
+  background-color: #2f2a2e; }
+  footer .ui.list {
+    padding: 0.9rem 0 !important; }
+    footer .ui.list .item {
+      margin: 0;
+      vertical-align: middle !important;
+      color: #fff; }
+    footer .ui.list h3 {
+      font-size: 1.875rem !important;
+      padding-right: 1.25rem !important; }
+    footer .ui.list a {
+      font-size: 1rem !important;
+      color: rgba(255, 255, 255, 0.4) !important;
+      padding: 0 0.5rem !important; }
+    footer .ui.list a:hover {
+      color: #fff !important; }
+  footer .right.ui.list {
+    float: right;
+    padding: 1.5rem 0 !important; }
+    footer .right.ui.list a {
+      font-size: 0.75rem !important;
+      padding: 0 !important; }
+    footer .right.ui.list i {
+      background-color: #CCCCCC !important;
+      color: #333333 !important; }
+
+.ui.fluid.accordion, .ui.fluid.accordion .accordion {
+  width: 100%; }
+
+.home-banner {
+  background: asset-url("topbanner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: none;
+  min-height: 74vh; }
+  .home-banner ul {
+    margin-top: 0.938rem;
+    margin-bottom: 0.938rem; }
+    .home-banner ul p {
+      margin: 0; }
+
+.banner-text {
+  padding-top: 5vh !important;
+  margin-top: 0 !important;
+  padding-bottom: 1rem !important; }
+  .banner-text .hero-text {
+    padding-top: 4rem;
+    font-weight: 100;
+    color: #6f3159;
+    line-height: 1.2em !important; }
+    .banner-text .hero-text strong {
+      color: #a4317a; }
+  .banner-text .strapline {
+    padding: 0rem 0rem 1.5rem 0rem !important;
+    color: #6f3159; }
+  .banner-text .by-line {
+    margin-top: 2.5em !important; }
+    .banner-text .by-line p {
+      font-size: 1.1em !important; }
+  .banner-text #big-signup {
+    transition-duration: 0.55s;
+    background-color: #f94263;
+    margin: 0.9375rem 0; }
+    .banner-text #big-signup:hover {
+      background-color: #6f3159; }
+
+.feature_header h3 {
+  color: #a4317a;
+  font-size: 2rem !important; }
+
+#features-list .feature {
+  margin: 0em;
+  padding: 1.5em 0em 0em;
+  position: relative; }
+  #features-list .feature .feature_text {
+    padding-top: 0.5rem;
+    vertical-align: bottom;
+    margin: 0; }
+    #features-list .feature .feature_text .feature_image {
+      padding-bottom: 0;
+      vertical-align: bottom; }
+    #features-list .feature .feature_text h3 {
+      color: #f94263;
+      font-size: 2rem !important;
+      line-height: 2.5rem;
+      margin-bottom: 1rem;
+      padding-top: 5vw; }
+
+#clients .tab_menu.tab_to_accordion {
+  margin: 0; }
+#clients .ui.pointing.menu .active.item:after {
+  top: 98%; }
+#clients .message1 {
+  padding: 2rem 1rem; }
+  #clients .message1 h3 {
+    font-size: 2rem !important;
+    padding-top: 1rem; }
+  #clients .message1 p {
+    text-align: center;
+    color: #a4317a; }
+#clients .clientbox {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: none;
+  min-height: 77vh; }
+#clients .clientbox_info {
+  margin-top: 8em; }
+  #clients .clientbox_info .casestudy .hidden {
+    display: none; }
+  #clients .clientbox_info .account_stats > icon {
+    font-size: 2.5em !important; }
+  #clients .clientbox_info .account_stats h4 {
+    margin: 0px !important;
+    padding: 0px !important; }
+  #clients .clientbox_info h4, #clients .clientbox_info h2, #clients .clientbox_info h3, #clients .clientbox_info p {
+    color: #fff !important; }
+  #clients .clientbox_info p {
+    line-height: 1.7em;
+    text-shadow: 1px 1px 3px #333; }
+#clients #heineken {
+  background-image: asset-url("Heineken.jpg"); }
+#clients #castle {
+  background-image: asset-url("castle.jpg"); }
+#clients #coke {
+  background-image: asset-url("coke.jpg"); }
+#clients #cheki {
+  background-image: asset-url("cheki.jpg"); }
+#clients #chase {
+  background-image: asset-url("chase.jpg"); }
+
+.text_dividers {
+  background-color: #c8c8c8;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+  .text_dividers h4 {
+    font-weight: 600;
+    margin: 0 !important; }
+
+.company_stats {
+  background-color: #eee;
+  padding: 4rem 0rem;
+  margin: 0rem !important; }
+  .company_stats h3 {
+    font-size: 2rem !important; }
+
+#why {
+  padding: 10em 0em;
+  background-color: #ffffff;
+  border-top: 1px solid #eeeeee; }
+
+#prices {
+  padding: 4rem 0;
+  background-color: white; }
+  #prices #details2 {
+    padding: 0rem 0 3rem; }
+    #prices #details2 h3 {
+      font-size: 2rem !important; }
+  #prices ul li {
+    vertical-align: bottom; }
+    #prices ul li .price_info {
+      background-color: #e6e6e6;
+      margin: 0 1.250rem 1.250rem;
+      min-height: 20.000rem; }
+      #prices ul li .price_info .statistic {
+        padding: 0.313rem 0 0.938rem; }
+      #prices ul li .price_info .purple_pricetag {
+        padding: 4% 0;
+        margin: 4% -1em;
+        font-size: 1rem;
+        background-color: #564f8a;
+        color: #fff; }
+    #prices ul li .price_info:hover {
+      box-shadow: 0.063rem 0.063rem 0 0.125rem rgba(0, 0, 0, 0.15);
+      -webkit-transition: all ease-in-out;
+      -moz-transition: all ease-in-out;
+      -o-transition: all ease-in-out;
+      -ms-transition: all ease-in-out;
+      transition: all ease-in-out; }
+    #prices ul li .price_more_info {
+      margin: 0 1.25rem;
+      min-height: 14.688rem; }
+      #prices ul li .price_more_info p {
+        margin: 0.313rem; }
+
+#brands {
+  padding-top: 4rem;
+  padding-bottom: 1rem; }
+  #brands h3 {
+    font-size: 2rem !important; }
+  #brands .brands .column {
+    vertical-align: middle !important; }
+
+#hero {
+  background: asset-url("zendesk-hero.png");
+  min-height: 448px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform: none; }
+  #hero h5 {
+    color: #fa4860;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-bottom: 0.5rem; }
+  #hero h3 {
+    font-weight: 400 !important;
+    font-size: 2.5em !important;
+    color: #713388; }
+
+#why-ongair, #pricing {
+  padding-top: 7%; }
+  #why-ongair h5, #pricing h5 {
+    color: #fa4860;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-bottom: 0.5rem; }
+  #why-ongair h3, #pricing h3 {
+    font-weight: 400 !important;
+    color: #564f8a;
+    font-size: 2em !important; }
+
+.zendesk_image_rows {
+  padding-bottom: 0 !important; }
+
+.home_site_zendesk .ui.divider {
+  margin-top: 0; }
+
+.zendesk-clients {
+  padding-top: 7vh; }
+  .zendesk-clients h4 {
+    color: #2f3588; }
+  .zendesk-clients .brands .column {
+    min-width: 100px; }
+
+#signup {
+  padding-top: 5rem;
+  padding-bottom: 2rem; }
+  #signup h2 {
+    font-size: 2rem !important;
+    color: #2f3588; }
+
+.user_details.users {
+  background-color: #ffffff; }
+  .user_details.users .signup_segment {
+    margin-top: 54px; }
+    .user_details.users .signup_segment p span {
+      font-weight: bold; }
+    .user_details.users .signup_segment .italic {
+      font-style: italic; }
+    .user_details.users .signup_segment h1 {
+      font-size: 300px; }
 
 /* Import Media Queries */
 /* ==================================================== */
@@ -548,7 +970,6 @@ footer {
 
   @page {
     margin: 0.5cm; }
-
   p,
   h2,
   h3 {
@@ -558,3 +979,5 @@ footer {
   h2,
   h3 {
     page-break-after: avoid; } }
+
+/*# sourceMappingURL=main.css.map */

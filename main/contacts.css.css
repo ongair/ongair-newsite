@@ -1,0 +1,29 @@
+.contacts.index .paging {
+  display: inline-block; }
+.contacts.index .ui.dropdown > .text {
+  text-transform: none; }
+.contacts.index table {
+  font-size: .9rem; }
+.contacts.index .ui.pagination.menu .item {
+  min-width: 2em; }
+.contacts.index .modal .ui.header .content,
+.contacts.index .modal .ui.header .icon {
+  display: inline-block; }
+.contacts.index .modal#list_modal .field {
+  text-align: center; }
+.contacts.index th.num-selected {
+  text-align: right; }
+
+.contacts.upload_page .tips {
+  margin-top: 2rem; }
+
+.contacts.show .ui.pagination.menu .item {
+  float: left; }
+
+.submenu:before {
+  position: absolute;
+  right: 0px;
+  content: "";
+  padding-right: 10px; }
+
+/*# sourceMappingURL=contacts.css.css.map */

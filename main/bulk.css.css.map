@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;;;;;;;;;AAYC,KAAM;EACL,UAAU,EAAE,GAAG;EAEf,mBAAc;IACb,WAAW,EAAE,MAAM;IACnB,UAAU,EAAE,MAAM;IAClB,KAAK,EAAE,kBAAgB;IACvB,SAAS,EAAE,GAAG",
+"sources": ["../sass/bulk.css.scss"],
+"names": [],
+"file": "bulk.css.css"
+}

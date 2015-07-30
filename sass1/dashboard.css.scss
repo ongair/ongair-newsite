@@ -1,0 +1,158 @@
+.menu span.introjs-showElement, .menu span.introjs-showElement.label, .menu .item.introjs-showElement {
+	background-color: $purple-dark !important;
+	color: #ffffff !important;
+	font-weight: bolder !important;
+}
+
+
+.message.help:hover, .message.tip:hover, .message.notifications:hover {
+	cursor: pointer;
+}
+
+.message.tip {
+	display: block;
+	text-decoration: none;
+	
+	.header {
+		font-size: 1rem;
+		font-weight: normal;
+		text-decoration: none none #fffff;
+	}
+}
+
+.notification.header {
+	font-size: 1rem;
+	font-weight: 100;
+}
+
+.accounts.profile {
+	.ui.message {
+		margin-top: 0px;
+	}
+
+	.field {
+		label {
+			display: block;
+		}
+		margin-bottom: 1rem;
+
+		img {
+			max-width: 100px;
+			display: block;
+		}
+
+		textarea {
+			min-height: 5em;
+			height: 5em;
+		}
+	}
+}
+
+
+.home, .contacts, .groups, .messages, .users, .distribution_lists, .accounts, .jobs, .assets, .scheduled_broadcasts, .locations, .auto_responders {		
+	a.author {
+		cursor: pointer;
+		color: #009FDA;
+		text-decoration: none;
+	}
+
+	.ui.textarea, .ui.form textarea {
+		height: 6em;
+	}
+
+	.sidebar {
+		overflow: visible;
+	}
+
+	.ui.dividing.header .sub.header {
+		padding-bottom: 0px;
+	}
+}
+
+.home.dashboard {
+	.right_sidebar {
+		margin-top: 0em;
+		.block.header {
+			font-weight: 100;
+			padding: 0.3em 0.5em;
+		}
+
+		.ui.feed .label .icon {
+			font-size: .9em;
+		}
+
+		.ui.feed .label + .content {
+			padding: 0px;
+		}
+	}
+
+	.stats {
+		a.item {
+			text-decoration: none;
+		}
+	}
+
+	.feed.segment {
+
+		.quote {
+			display: inline-block;
+			color: rgb(128, 128, 128);
+			font-style: italic;
+		}
+		.extra.images {
+			img {
+				width: 100px;
+				height: 100px;
+			}
+		}
+	}
+}
+
+.dashboard {
+	.help.ui.message:first-child {
+		margin-top: 0em;
+	}
+}
+
+
+.home.inbox, .home.conversation, .messages.media, .home.personal, .home.auto_responder, .home.favorites, .home.filter, .contacts.show, .distribution_lists {
+	.paging {
+		float: right;
+		margin-top: 0.9em;
+		font-size: 0.9rem;
+	}
+
+	
+	.ui.pagination.menu .item {
+		font-size: 0.9rem;
+	}
+	
+
+	.ui.piled.segment:last-child.conversation {
+		margin-top: 5rem;
+	}
+
+}
+
+.stats {
+	.item {
+		text-align: center;
+	}
+}
+
+.home.dashboard {
+	.ns-effect-slidetop {
+		box-shadow: none;
+		p {
+			font-size: 1em;
+		}
+	}
+
+	.ns-box a { text-decoration: none; }
+
+	&.ns-shown {
+		.ui.page.grid.structure {
+			margin-top: 45px;
+		}
+	}
+}

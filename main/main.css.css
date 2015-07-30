@@ -1,0 +1,127 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif; }
+
+.ui.header .sub.header {
+  font-family: Helvetica, 'Open Sans', sans-serif;
+  font-weight: 100; }
+
+body {
+  margin: 0; }
+
+.bg {
+  background: asset-url("stripe.png") top left repeat-x;
+  height: 11px;
+  margin-bottom: 20px; }
+
+.launch.button {
+  position: fixed;
+  top: 63px;
+  z-index: 500; }
+
+a.item.conversation {
+  text-decoration: none;
+  font-size: .9em; }
+
+#content,
+.help.ui.segment,
+.help.ui.message:first-child,
+.help.ui.message,
+.ui.grid .column > .ui.help.segment:only-child {
+  margin-top: 5.25rem; }
+
+.help p {
+  font-size: 0.95rem !important; }
+
+a.header_link {
+  color: inherit;
+  text-decoration: none; }
+
+.comment.incoming {
+  background-color: rgba(0, 0, 0, 0.04);
+  padding-bottom: 0.1em;
+  border-radius: 3px; }
+
+.ui.comments .comment.incoming:first-child {
+  padding-top: 0.5em; }
+
+.send_message {
+  margin-top: 10px; }
+
+.form.close.conversation {
+  float: right;
+  margin-top: -57px; }
+
+.form.warning .message {
+  margin-bottom: 10px; }
+
+.comments .metadata {
+  float: right; }
+
+.main {
+  margin-left: 200px; }
+
+.ui.menu .dropdown.item .menu .item {
+  padding: 0.5rem 1rem !important; }
+
+.home.inbox .header, .home.personal .header, .home.auto_responder .header, .home.favorites .header, .home.filter .header, .home.groups .header, .contacts.show .header, .home.search .header {
+  margin-bottom: 0px; }
+.home.inbox ul.ui.list, .home.inbox ol.ui.list, .home.inbox .ui.list, .home.personal ul.ui.list, .home.personal ol.ui.list, .home.personal .ui.list, .home.auto_responder ul.ui.list, .home.auto_responder ol.ui.list, .home.auto_responder .ui.list, .home.favorites ul.ui.list, .home.favorites ol.ui.list, .home.favorites .ui.list, .home.filter ul.ui.list, .home.filter ol.ui.list, .home.filter .ui.list, .home.groups ul.ui.list, .home.groups ol.ui.list, .home.groups .ui.list, .contacts.show ul.ui.list, .contacts.show ol.ui.list, .contacts.show .ui.list, .home.search ul.ui.list, .home.search ol.ui.list, .home.search .ui.list {
+  margin-top: 0px; }
+.home.inbox .ribbon, .home.personal .ribbon, .home.auto_responder .ribbon, .home.favorites .ribbon, .home.filter .ribbon, .home.groups .ribbon, .contacts.show .ribbon, .home.search .ribbon {
+  margin-bottom: 10px; }
+.home.inbox .inbox.selection.list .contact, .home.personal .inbox.selection.list .contact, .home.auto_responder .inbox.selection.list .contact, .home.favorites .inbox.selection.list .contact, .home.filter .inbox.selection.list .contact, .home.groups .inbox.selection.list .contact, .contacts.show .inbox.selection.list .contact, .home.search .inbox.selection.list .contact {
+  min-width: 200px; }
+  .home.inbox .inbox.selection.list .contact .name, .home.personal .inbox.selection.list .contact .name, .home.auto_responder .inbox.selection.list .contact .name, .home.favorites .inbox.selection.list .contact .name, .home.filter .inbox.selection.list .contact .name, .home.groups .inbox.selection.list .contact .name, .contacts.show .inbox.selection.list .contact .name, .home.search .inbox.selection.list .contact .name {
+    vertical-align: top; }
+  .home.inbox .inbox.selection.list .contact .count, .home.personal .inbox.selection.list .contact .count, .home.auto_responder .inbox.selection.list .contact .count, .home.favorites .inbox.selection.list .contact .count, .home.filter .inbox.selection.list .contact .count, .home.groups .inbox.selection.list .contact .count, .contacts.show .inbox.selection.list .contact .count, .home.search .inbox.selection.list .contact .count {
+    vertical-align: top;
+    font-size: .7em;
+    font-weight: bolder; }
+.home.inbox .inbox.selection.list .description, .home.personal .inbox.selection.list .description, .home.auto_responder .inbox.selection.list .description, .home.favorites .inbox.selection.list .description, .home.filter .inbox.selection.list .description, .home.groups .inbox.selection.list .description, .contacts.show .inbox.selection.list .description, .home.search .inbox.selection.list .description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+.home.inbox .ui.grid > .column, .home.personal .ui.grid > .column, .home.auto_responder .ui.grid > .column, .home.favorites .ui.grid > .column, .home.filter .ui.grid > .column, .home.groups .ui.grid > .column, .contacts.show .ui.grid > .column, .home.search .ui.grid > .column {
+  margin-top: 0px; }
+.home.inbox .ui.popup img.preview, .home.personal .ui.popup img.preview, .home.auto_responder .ui.popup img.preview, .home.favorites .ui.popup img.preview, .home.filter .ui.popup img.preview, .home.groups .ui.popup img.preview, .contacts.show .ui.popup img.preview, .home.search .ui.popup img.preview {
+  max-width: 200px; }
+.home.inbox .empty, .home.personal .empty, .home.auto_responder .empty, .home.favorites .empty, .home.filter .empty, .home.groups .empty, .contacts.show .empty, .home.search .empty {
+  display: block;
+  margin: 2rem auto; }
+
+.home.index img.hero {
+  display: block;
+  margin: auto;
+  padding-top: 5rem;
+  max-width: 30%; }
+.home.index h1.tagline {
+  text-align: center; }
+.home.index .overview {
+  margin-top: 3rem; }
+.home.index .links a {
+  text-decoration: none;
+  color: inherit; }
+
+.home.dashboard .online img {
+  border-radius: 50em; }
+
+.messages.media .ui.items > .row > .item, .messages.media .ui.items > .item.image {
+  min-height: 300px; }
+
+.sessions.new .ui.labeled.icon.input:not(.left) > .icon {
+  margin-right: 0px; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: lightgray; }
+  .footer .ui.secondary.menu .item > .input input.search {
+    background-color: rgba(245, 245, 245, 0.6);
+    margin-top: 3px; }
+
+td.empty {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5); }
+
+/*# sourceMappingURL=main.css.css.map */

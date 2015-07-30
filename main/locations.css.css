@@ -1,0 +1,32 @@
+html, body.locations, body.locations .main {
+  height: 100%; }
+
+.locations .map.avatar {
+  width: 40px;
+  border-radius: 50em; }
+.locations .bg {
+  margin-bottom: 0px; }
+.locations .ui.items > .item .avatar {
+  max-width: 50px; }
+.locations #map {
+  height: 100%; }
+.locations .item.location {
+  width: 300px;
+  min-height: 100px; }
+  .locations .item.location .content {
+    position: relative; }
+    .locations .item.location .content .ext {
+      color: rgba(0, 0, 0, 0.25); }
+    .locations .item.location .content .name {
+      color: #009FDA; }
+  .locations .item.location .preview {
+    width: 100px;
+    display: inline-block; }
+  .locations .item.location .description {
+    display: inline-block;
+    width: 170px;
+    margin-left: 7px;
+    min-height: 100px;
+    float: right; }
+
+/*# sourceMappingURL=locations.css.css.map */

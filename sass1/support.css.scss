@@ -1,0 +1,25 @@
+.progress-bar.animate {
+   width: 100%;
+}
+
+.fv-form-bootstrap .help-block {
+  margin-bottom: 1em; 
+}
+
+#result {
+  h4 {
+    display: none;
+  }
+
+  &.errors {
+    
+    margin-top: 1em;
+    li {
+      color: red;
+    }
+
+    h4 { 
+      display: block;
+    }
+  }
+}

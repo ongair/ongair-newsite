@@ -1,0 +1,54 @@
+.accounts {
+  .instructions {
+    
+    .ui.steps {
+      // width: 100%;
+      .ui.step {
+        padding-bottom: 19px;  
+      }
+
+      .step.active, 
+      .ui.active.step,
+      .step.active::after {
+        background-color: $purple-dark;
+      }
+    }
+
+    .segment.attached {
+      margin-top: 0em;
+    }
+  }
+
+  .columns.compact,
+  .column.compact {
+    margin-top: 0em;
+    margin-bottom: 0em; 
+  }
+
+  .segment.wizard {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    // border-left: 1px solid rgba(0, 0, 0, 0.15);
+    // border-right: 1px solid rgba(0, 0, 0, 0.15);
+  }
+
+  .field.activate-split-button {
+    margin-top: 1rem;
+  }
+}
+
+.select_account {
+  .ui.selection.dropdown {
+    margin: auto;
+    display: block;
+    text-align: center;
+
+    .item {
+      text-align: center;
+
+      &.setup {
+        font-weight: bolder;
+      }
+    }
+  }
+}
