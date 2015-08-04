@@ -81,7 +81,11 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  height: initial; }
+  height: initial;
+  background: none !important; }
+
+body.pushable {
+  background: none !important; }
 
 sup {
   font-size: 56%; }
@@ -185,7 +189,7 @@ p {
   font-size: 0.9rem; }
 
 .ui.sticky.navbar.fixed.top {
-  background-color: rgba(254, 254, 254, 0.8);
+  background-color: #fefefe;
   height: 50px !important;
   padding: 0 0.625rem;
   box-shadow: 0 0.063rem 0.188rem 0 rgba(0, 0, 0, 0.5); }
@@ -201,13 +205,19 @@ p {
     .ui.sticky.navbar.fixed.top .content .ui.button {
       margin: 0 !important; }
 
-#banner {
+#banner, #bannerwe, #bannerwha {
   background: url("../images/topbanner.jpg"); }
-  #banner ul {
+  #banner ul, #bannerwe ul, #bannerwha ul {
     margin-top: 0.938rem;
     margin-bottom: 0.938rem; }
-    #banner ul p {
+    #banner ul p, #bannerwe ul p, #bannerwha ul p {
       margin: 0; }
+
+#bannerwe {
+  background: url("../images/banner_1.jpg"); }
+
+#bannerwha {
+  background: url("../images/banner_1.jpg"); }
 
 #hero {
   background: url("../images/zendesk-hero.png"); }
@@ -220,7 +230,7 @@ p {
     font-weight: 400 !important;
     color: #713388; }
 
-#banner, #hero {
+#banner, #bannerwe, #bannerwha, #hero {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -442,6 +452,21 @@ footer {
     color: white;
     background: none; }
 
+.ui.sidebar.menu .item.medium {
+  font-size: 1rem;
+  font-weight: 100; }
+
+.ui.sidebar.menu .button {
+  border: 2px solid #fff;
+  opacity: 0.5;
+  width: 70%;
+  margin: 3rem auto 1rem auto !important; }
+  .ui.sidebar.menu .button:hover {
+    opacity: 1; }
+
+.spacer {
+  height: 3rem; }
+
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
@@ -497,10 +522,12 @@ body {
     color: #fff; }
 
 nav > a.item:not(#signup-btn) {
-  transition-duration: 0.55s; }
+  transition-duration: 0.55s;
+  padding: 0.75rem 0.2rem;
+  margin: 0 1.35rem; }
   nav > a.item:not(#signup-btn):hover {
     color: #a4317a;
-    text-decoration: underline; }
+    border-bottom: 1px solid; }
 
 #signup-btn {
   color: #fff;
@@ -716,7 +743,7 @@ footer {
     line-height: 1.7em;
     text-shadow: 1px 1px 3px #333; }
 #clients #heineken {
-  background-image: asset-url("Heineken.jpg"); }
+  background: url("../images/Heineken-c3bd9453d1b0970e5fb3f79c6b60ea63.jpg"); }
 #clients #castle {
   background-image: asset-url("castle.jpg"); }
 #clients #coke {

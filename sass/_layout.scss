@@ -3,8 +3,9 @@ body{
   padding: 0;
   overflow-x: hidden;
   height: initial;
-
+  background: none !important;
 }
+body.pushable{ background: none !important;}
   sup {
   font-size: 56%;
   }
@@ -129,7 +130,7 @@ p{
   }
 }
 .ui.sticky.navbar.fixed.top{
-  background-color: rgba(254,254,254,0.8);
+  background-color: rgba(254,254,254,1);
   height: 50px !important;
   padding: 0 0.625rem;
   box-shadow: 0 0.063rem 0.188rem 0 rgba(0,0,0,0.5);
@@ -149,7 +150,7 @@ p{
   }
 }
 
-  #banner{
+  #banner, #bannerwe, #bannerwha{
     background: url("../images/topbanner.jpg");
     ul{
     margin-top: 0.938rem;
@@ -159,6 +160,12 @@ p{
       margin: 0;
     }
   }
+  }
+  #bannerwe{
+    background: url("../images/banner_1.jpg");
+  }
+  #bannerwha{
+    background: url("../images/banner_1.jpg");
   }
   #hero{
     background: url("../images/zendesk-hero.png");
@@ -174,7 +181,7 @@ p{
     }
   }
 
-  #banner, #hero{
+  #banner, #bannerwe, #bannerwha, #hero{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -485,6 +492,11 @@ color: #333 !important;
   }
   
 }
+.ui.sidebar.menu .item.medium{ font-size: 1rem; font-weight: 100;}
+.ui.sidebar.menu .button{ border:2px solid #fff; opacity: 0.5; width: 70%; margin: 3rem auto 1rem auto !important;
+&:hover{ opacity: 1};
+}
+.spacer{ height: 3rem;}
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;

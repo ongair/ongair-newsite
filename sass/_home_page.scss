@@ -41,9 +41,11 @@ body{
 nav > a.item:not(#signup-btn){
   // background-color: red;
   transition-duration: 0.55s;
+  padding:0.75rem 0.2rem;
+  margin: 0 1.35rem;
     &:hover{
       color: $purple-light;
-      text-decoration: underline;
+      border-bottom: 1px solid;
       //font-weight: 600;
     }
 }
@@ -410,7 +412,7 @@ footer{
   }  
 
   #heineken{
-    background-image: asset-url("Heineken.jpg");
+    background:url("../images/Heineken-c3bd9453d1b0970e5fb3f79c6b60ea63.jpg");
   }
 
   #castle{
